@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: c5_newsletter\n"
+"POT-Creation-Date: 2015-08-25 15:10+0100\n"
+"PO-Revision-Date: 2015-08-25 18:04+0100\n"
+"Last-Translator: Daniel Gasser <software@daniel-gasser.com>\n"
+"Language-Team: me <software@daniel-gasser.com>\n"
+"Language: german\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: t:1c,2;_;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /var/www/html/c57/packages/daniel_gasser_com_news_letter\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller.php:19
+msgid "Access Denied."
+msgstr "Access Denied."
+
+#: controller.php:39
+msgid "Adds a Newsletter feature to the Dashboard."
+msgstr "Fügt ein Newsletter-Plugin zur Verwaltung hinzu"
+
+#: controller.php:44
+msgid "Daniel Gasser - Newsletter"
+msgstr "Daniel Gasser - Newsletter"
+
+#: controller.php:171 controllers/single_page/dashboard/newsletter.php:47
+#: controllers/single_page/dashboard/newsletter/settings.php:60
+#: controllers/single_page/dashboard/newsletter/settings.php:193
+msgid "Mail template"
+msgstr "E-Mail Vorlage"
+
+#: controller.php:172
+msgid "Newsletter history"
+msgstr "Newsletter Verlauf"
+
+#: src/Concrete/Help/HelpServiceProvider.php:17
+msgid "Newsletters settings"
+msgstr "Newsletter Einstellungen"
+
+#: src/Concrete/Help/HelpServiceProvider.php:18
+msgid "Set the maximum number of attachments."
+msgstr "Die maximale Anzahl von Anhängen bestimmen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:19
+#: src/Concrete/Help/HelpServiceProvider.php:20
+#: src/Concrete/Help/HelpServiceProvider.php:39
+#: single_pages/dashboard/newsletter/settings.php:54
+#: single_pages/dashboard/newsletter/settings.php:60
+#: single_pages/dashboard/newsletter/settings.php:67
+#: controllers/single_page/dashboard/newsletter.php:183
+msgid "Automated Jobs"
+msgstr ""
+
+#: src/Concrete/Help/HelpServiceProvider.php:19
+#, php-format
+msgid "Define if a newsletter should be sent by \"%s\" or directly:"
+msgstr ""
+"Bestimmen, ob ein Newsletter über \"%s\" oder direkt verschickt werden soll:"
+
+#: src/Concrete/Help/HelpServiceProvider.php:20
+#, php-format
+msgid "If your provider dictates a limit, please send over \"%s\"."
+msgstr "Falls Ihr Provider eine Limite vorgibt, bitte über \"%s\" verschicken"
+
+#: src/Concrete/Help/HelpServiceProvider.php:21
+#: single_pages/dashboard/newsletter/settings.php:61
+#: single_pages/dashboard/newsletter/settings.php:67
+msgid "Send directly"
+msgstr "Direktversand"
+
+#: src/Concrete/Help/HelpServiceProvider.php:21
+#: single_pages/dashboard/newsletter/settings.php:61
+#, php-format
+msgid "The option \"%s\" only suits for small amount of email-addresses"
+msgstr "Die Option \"%s\" ist nur für eine kleine Anzahl an E-Mails gedacht"
+
+#: src/Concrete/Help/HelpServiceProvider.php:22
+#: single_pages/dashboard/newsletter/settings.php:5
+msgid "Ask your provider or webmaster for help."
+msgstr "Bitten Sie Ihren Anbieter oder Webmaster um Hilfe"
+
+#: src/Concrete/Help/HelpServiceProvider.php:23
+msgid ""
+"Define if a confirmation mail will be sent to the administrator of the "
+"website."
+msgstr ""
+"Bestimmen, ob eine Bestätigungs-E-Mail an den Website-Administrator gesendet "
+"werden."
+
+#: src/Concrete/Help/HelpServiceProvider.php:24
+msgid "Define visible user attributes in the recipient list."
+msgstr "Sichtbare Benutzer-Attribute in der Empfängerliste bestimmen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:25
+msgid "Default mail and footer text."
+msgstr "Standard E-Mail Fuss-Text"
+
+#: src/Concrete/Help/HelpServiceProvider.php:26
+msgid "Set header logo."
+msgstr "Kopf-Bild setzen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:29
+msgid "Choose the desired usergroup."
+msgstr "Benutzergruppe auswählen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:30
+msgid "Set header, mail and footer text."
+msgstr "Kopf-, E-Mail-, und Fusstext setzen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:31
+msgid "Attach files to the newsletter."
+msgstr "Dateien an den Newsletter anhängen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:32
+msgid "Send the newsletter."
+msgstr "Newsletter verschicken"
+
+#: src/Concrete/Help/HelpServiceProvider.php:35
+msgid "Design the mail template layout."
+msgstr "Gestalten Sie die E-Mail Vorlage."
+
+#: src/Concrete/Help/HelpServiceProvider.php:36
+msgid ""
+"You may use any CSS unit used normally in a CSS-file. If a unit isn't "
+"recognised, the chosen value won't be taken. Default value will be taken "
+"instead."
+msgstr ""
+"Sie können jede gültige CSS-Einheit benutzen, die in einer CSS-Datei benutzt "
+"werden. Wenn eine Einheit nicht erkannt wird, wird der Standardwert "
+"verwendet."
+
+#: src/Concrete/Help/HelpServiceProvider.php:39
+#, php-format
+msgid ""
+"See all newsletter already saved and sent or not yet sent. (Depending if "
+"sending by \"%s\" or directly)"
+msgstr ""
+"Alle Newsletter, die bereits verschickt oder nicht verschickt wurden, "
+"anzeigen. (Abhänging davon, ob über \"%s\" oder direkt verschickt)"
+
+#: mail/newsletter_template.php:3
+#, php-format
+msgid "Newsletter %s"
+msgstr "Newsletter %s"
+
+#: mail/confirmation_template.php:3
+msgid "Newsletter sent"
+msgstr "Verschickte Newsletter"
+
+#: single_pages/dashboard/newsletter.php:13
+#, php-format
+msgid "You may attach up to <span id=\"attachedFiles\">%s</span> files"
+msgstr ""
+"Sie können bis zu <span id=\"attachedFiles\">%s</span> Dateien anhängen"
+
+#: single_pages/dashboard/newsletter.php:21
+msgid "No users in group"
+msgstr "Keine Benutzer in dieser Gruppe"
+
+#: single_pages/dashboard/newsletter.php:22
+msgid "Total users in group"
+msgstr "Total Benutzer in dieser Gruppe"
+
+#: single_pages/dashboard/newsletter.php:23
+msgid "Selected users"
+msgstr "Ausgewählte Benutzer"
+
+#: single_pages/dashboard/newsletter.php:24
+msgid "No users selected"
+msgstr "Keine Benutzer ausgewählt"
+
+#: single_pages/dashboard/newsletter.php:32
+msgid "more attachments posssible"
+msgstr "Anhänge mehr möglich"
+
+#: single_pages/dashboard/newsletter.php:59
+msgid "Send newsletter to the following user group"
+msgstr "Newsletter an folgende Benutzergruppe schicken"
+
+#: single_pages/dashboard/newsletter.php:90
+msgid "send?"
+msgstr "Schicken?"
+
+#: single_pages/dashboard/newsletter.php:91
+#: single_pages/dashboard/newsletter/settings.php:129
+msgid "Email"
+msgstr "E-Mail"
+
+#: single_pages/dashboard/newsletter.php:152
+msgid "Content of the newsletter?"
+msgstr "Inhalt des Newsletters"
+
+#: single_pages/dashboard/newsletter.php:158
+#: single_pages/dashboard/newsletter/newsletter_sent.php:32
+#: single_pages/dashboard/newsletter/settings.php:184
+msgid "Header text"
+msgstr "Kopf-Text"
+
+#: single_pages/dashboard/newsletter.php:167
+#: single_pages/dashboard/newsletter/newsletter_sent.php:38
+#: single_pages/dashboard/newsletter/settings.php:198
+msgid "Email text"
+msgstr "E-Mail-Text"
+
+#: single_pages/dashboard/newsletter.php:176
+#: single_pages/dashboard/newsletter/newsletter_sent.php:44
+#: single_pages/dashboard/newsletter/settings.php:212
+msgid "Footer text"
+msgstr "Fuss-Text"
+
+#: single_pages/dashboard/newsletter.php:184
+msgid "Attach file(s)"
+msgstr "Datei(en) anhängen"
+
+#: single_pages/dashboard/newsletter.php:222
+msgid "Let's go!"
+msgstr "Los gehts!"
+
+#: single_pages/dashboard/newsletter.php:228
+msgid "Send"
+msgstr "Abschicken"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:23
+msgid "Newsletter from the"
+msgstr "Newsletter vom"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:28
+#: single_pages/dashboard/newsletter/mail_template.php:19
+#: single_pages/dashboard/newsletter/mail_template.php:45
+#: controllers/single_page/dashboard/newsletter.php:278
+#: controllers/single_page/dashboard/newsletter/settings.php:240
+#: controllers/single_page/dashboard/newsletter/mail_template.php:171
+msgid "Header logo"
+msgstr "Kopf-Bild"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:52
+msgid "Emails sent/not sent"
+msgstr "E-Mails gesendet/nicht gesendet"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:55
+#: single_pages/dashboard/newsletter/newsletter_sent.php:74
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:71
+msgid "No attachments"
+msgstr "Keine Anhänge"
+
+#: single_pages/dashboard/newsletter/settings.php:16
+msgid "No users in this group"
+msgstr "Keine Benutzer in dieser Gruppe"
+
+#: single_pages/dashboard/newsletter/settings.php:34
+msgid "Required fields"
+msgstr "Pflichtfelder"
+
+#: single_pages/dashboard/newsletter/settings.php:54
+#, php-format
+msgid ""
+"Send over \"<a href=\"/dashboard/system/optimization/jobs\">%s</a>\" or "
+"directly"
+msgstr ""
+"Über \"<a href=\"/dashboard/system/optimization/jobs\">%s</a>\"  oder direkt "
+"senden"
+
+#: single_pages/dashboard/newsletter/settings.php:60
+#, php-format
+msgid "If your provider dictates a limit, please send over \"%s\""
+msgstr "Falls Ihr Provider eine Limite vorgibt, bitte über \"%s\" verschicken"
+
+#: single_pages/dashboard/newsletter/settings.php:79
+msgid ""
+"Some providers limits the number of emails being sent in a certain time "
+"interval. (Eg. 100 emails per hour)"
+msgstr ""
+"Manche Anbieter beschränken die Anzahl E-Mails, die in einer gewissen Zeit "
+"verschickt werden dürfen"
+
+#: single_pages/dashboard/newsletter/settings.php:89
+msgid "per"
+msgstr "pro"
+
+#: single_pages/dashboard/newsletter/settings.php:102
+msgid "Command for crontab"
+msgstr "Befehl für crontab"
+
+#: single_pages/dashboard/newsletter/settings.php:112
+msgid "Don't forget to adapt your cron job!"
+msgstr "Vergessen Sie nicht, Ihren cron job anzupassen!"
+
+#: single_pages/dashboard/newsletter/settings.php:119
+msgid "This command is for crontab only."
+msgstr "Dieser Befehl ist nur für crontab."
+
+#: single_pages/dashboard/newsletter/settings.php:120
+msgid "The path to the '<i>wget</i>' or '<i>get</i>' program may be different."
+msgstr "Der Pfad zum Programm '<i>wget</i>' oder '<i>get</i>' kann abweichen."
+
+#: single_pages/dashboard/newsletter/settings.php:129
+msgid "Newsletter-report per email"
+msgstr "Newsletter-Rapport per E-Mail"
+
+#: single_pages/dashboard/newsletter/settings.php:135
+msgid "Would you like to receive a report about this newsletter"
+msgstr "Möchten Sie einen Rapport über diesen Newsletter erhalten"
+
+#: single_pages/dashboard/newsletter/settings.php:139
+msgid "Yes"
+msgstr ""
+
+#: single_pages/dashboard/newsletter/settings.php:139
+msgid "No"
+msgstr ""
+
+#: single_pages/dashboard/newsletter/settings.php:152
+msgid "Visible attributes in recipient list"
+msgstr "Sichtbare Benutzer-Attribute in der Empfängerliste"
+
+#: single_pages/dashboard/newsletter/settings.php:251
+#: single_pages/dashboard/newsletter/settings.php:258
+msgid "Save"
+msgstr "Speichern"
+
+#: single_pages/dashboard/newsletter/mail_template.php:9
+msgid "Enter an email address first"
+msgstr "Geben Sie zuerst eine E-Mail Adresse ein"
+
+#: single_pages/dashboard/newsletter/mail_template.php:25
+msgid "Width of header logo"
+msgstr "Kopf-Bild"
+
+#: single_pages/dashboard/newsletter/mail_template.php:35
+msgid "Height of header logo"
+msgstr "Kopf-Bild Höhe"
+
+#: single_pages/dashboard/newsletter/mail_template.php:45
+msgid "Display"
+msgstr "Zeige"
+
+#: single_pages/dashboard/newsletter/mail_template.php:57
+msgid "Logo position"
+msgstr "Logo Position"
+
+#: single_pages/dashboard/newsletter/mail_template.php:62
+msgid "Top"
+msgstr "Oben"
+
+#: single_pages/dashboard/newsletter/mail_template.php:70
+msgid "Left"
+msgstr "Links"
+
+#: single_pages/dashboard/newsletter/mail_template.php:78
+msgid "Right"
+msgstr "Rechts"
+
+#: single_pages/dashboard/newsletter/mail_template.php:86
+msgid "Bottom"
+msgstr "Unten"
+
+#: single_pages/dashboard/newsletter/mail_template.php:96
+msgid "Header"
+msgstr "Kopf"
+
+#: single_pages/dashboard/newsletter/mail_template.php:106
+msgid "Header background color"
+msgstr "Kopf Hintergrundfarbe"
+
+#: single_pages/dashboard/newsletter/mail_template.php:116
+msgid "Header height"
+msgstr "Kopf-Höhe"
+
+#: single_pages/dashboard/newsletter/mail_template.php:128
+msgid "Body (container)"
+msgstr "Body (container)"
+
+#: single_pages/dashboard/newsletter/mail_template.php:137
+msgid "Body background color"
+msgstr "Body Hintergrundfarbe"
+
+#: single_pages/dashboard/newsletter/mail_template.php:149
+msgid "Padding"
+msgstr "Padding"
+
+#: single_pages/dashboard/newsletter/mail_template.php:154
+msgid "Padding top"
+msgstr "Padding oben"
+
+#: single_pages/dashboard/newsletter/mail_template.php:162
+msgid "Padding left"
+msgstr "Padding links"
+
+#: single_pages/dashboard/newsletter/mail_template.php:170
+msgid "Padding right"
+msgstr "Padding rechts"
+
+#: single_pages/dashboard/newsletter/mail_template.php:178
+msgid "Padding bottom"
+msgstr "Padding unten"
+
+#: single_pages/dashboard/newsletter/mail_template.php:189
+msgid "Footer"
+msgstr "Fuss"
+
+#: single_pages/dashboard/newsletter/mail_template.php:198
+msgid "Footer background color"
+msgstr "Fuss Hintergrundfarbe"
+
+#: single_pages/dashboard/newsletter/mail_template.php:209
+msgid "Send test message"
+msgstr "Test-E-Mail verschicken"
+
+#: single_pages/dashboard/newsletter/mail_template.php:215
+msgid "to"
+msgstr "an"
+
+#: single_pages/dashboard/newsletter/mail_template.php:220
+msgid "Go"
+msgstr "Los"
+
+#: single_pages/dashboard/newsletter/mail_template.php:229
+msgid "Preview"
+msgstr "Vorschau"
+
+#: controllers/single_page/dashboard/newsletter.php:38
+msgid "SMTP Method"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter.php:38
+#, php-format
+msgid ""
+"Please adapt the sitewide email settings at <a href=\"%s\">%s</a> first. See "
+"the error message <a id=\"mail_error_message\" href=\"#\">here</a>."
+msgstr ""
+"Die E-Mail Einstellungen der Website sind nicht korrekt eingestellt. Bitte "
+"überprüfen Sie die Einstellungen <a href=\"%s\">%s</a> bevor Sie Newsletter "
+"verschicken. <a class=\"mail_error_message\">Hier</a> können Sie die "
+"Fehlermeldung einsehen."
+
+#: controllers/single_page/dashboard/newsletter.php:43
+#, php-format
+msgid "Please adapt the <a href=\"%s\">settings</a> first."
+msgstr "Bitte passen Sie zuerst die <a href=\"%s\">Einstellungen</a> an."
+
+#: controllers/single_page/dashboard/newsletter.php:47
+#: controllers/single_page/dashboard/newsletter/settings.php:60
+#: controllers/single_page/dashboard/newsletter/settings.php:193
+#, php-format
+msgid ""
+"Don't forget to design the <a href=\"%s\">%s</a> before sending Newsletters."
+msgstr ""
+"Vergessen Sie nicht, die <a href=\"%s\">%s</a> zu gestalten, bevor Sie "
+"Newsletter verschicken."
+
+#: controllers/single_page/dashboard/newsletter.php:93
+#: controllers/single_page/dashboard/newsletter/mail_template.php:171
+#, php-format
+msgid ""
+"The field \"%s\" is required. Please adapt the <a href=\"%s\">settings</a> "
+"first"
+msgstr ""
+"Das Feld \"%s\" ist erforderlich. Bitte passen Sie zuerst die <a href=\"%s"
+"\">Einstellungen</a> an."
+
+#: controllers/single_page/dashboard/newsletter.php:168
+#: controllers/single_page/dashboard/newsletter.php:308
+#: jobs/send_newsletter.php:101
+#, php-format
+msgid "%s emails successfully sent!"
+msgstr "%s E-Mails wurden erflogreich verschickt!"
+
+#: controllers/single_page/dashboard/newsletter.php:183
+#, php-format
+msgid "%s emails will be sent as \"%s\"!"
+msgstr "%s E-Mails werden als \"%s\" verschickt!"
+
+#: controllers/single_page/dashboard/newsletter.php:215
+msgid "No results"
+msgstr "Keine Resultate"
+
+#: controllers/single_page/dashboard/newsletter.php:343
+msgid "Not sent yet. Will be sent"
+msgstr "Noch nicht gesendet. Werden gesendet"
+
+#: controllers/single_page/dashboard/newsletter.php:343
+msgid "Sent"
+msgstr "Gesendet"
+
+#: controllers/single_page/dashboard/newsletter.php:354
+msgid "at"
+msgstr "am"
+
+#: controllers/single_page/dashboard/newsletter/newsletter_sent.php:30
+msgid "No newsletter yet"
+msgstr "Keine Newsletter vorhanden"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:111
+#: controllers/single_page/dashboard/newsletter/settings.php:147
+#, php-format
+msgid "The field \"%s\" is required"
+msgstr "Das Feld \"%s\" ist erforderlich"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:150
+#, php-format
+msgid "The field \"%s\" must be greater or equal to %s"
+msgstr "Das Feld \"%s\" muss grösser oder gleich %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:153
+#, php-format
+msgid "The field \"%s\" must be smaller or equal to %s"
+msgstr "Das Feld \"%s\" muss kleiner oder gleich %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:156
+#, php-format
+msgid "The field \"%s\" must be greater than %s"
+msgstr "Das Feld \"%s\" muss grösser als %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:191
+#: controllers/single_page/dashboard/newsletter/mail_template.php:143
+msgid "Settings have been saved"
+msgstr "Einstellungen wurden gespeichert"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:233
+msgid "Minute"
+msgstr "Minute"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:234
+msgid "Hour"
+msgstr "Stunde"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:235
+msgid "Day"
+msgstr "Tag"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:236
+msgid "Month"
+msgstr "Monat"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:238
+msgid "Number of attachments to be sent with the newsletter"
+msgstr "Anzahl angehängter Dateien, die mit dem Newsletter verschickt werden"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:239
+msgid "Number of emails per day/hour/minute"
+msgstr "Anzahl E-Mails pro Tag/Stunde/Minute"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:241
+msgid "Owner email"
+msgstr "Absender E-Mail"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:264
+#, php-format
+msgid "Test message from %s"
+msgstr "Test-Nachricht von %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:266
+msgid "This is a test message."
+msgstr "Das ist eine Test-Nachricht."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:267
+msgid "Configuration:"
+msgstr "Konfiguration:"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:268
+#, php-format
+msgid "Send mail method: %s"
+msgstr "E-Mail Verschicken Art: %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:271
+#, php-format
+msgid "SMTP Server: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:272
+#, php-format
+msgid "SMTP Port: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:273
+#, php-format
+msgid "SMTP Encryption: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:275
+msgid "SMTP Authentication: none"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:278
+#, php-format
+msgid "SMTP Username: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:279
+#, php-format
+msgid "SMTP Password: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/mail_template.php:200
+#, php-format
+msgid "The test email has been sent to %s"
+msgstr "Die Test-Nachricht wurde an %s verschickt"
+
+#: jobs/send_newsletter.php:21
+msgid "Sends newsletters"
+msgstr "Newsletter verschicken"
+
+#: jobs/send_newsletter.php:26
+msgid ""
+"Sends a newsletter according to the settings defined in Newsletter Single "
+"Page"
+msgstr ""
+"Verschickt Newsletter gemäss den Einstellungen der Sonderseite Newsletter"
+
+#: jobs/send_newsletter.php:53
+#, php-format
+msgid "No recipients between %s and %s. Please wait a %s and check again."
+msgstr ""
+"Keine Empfänger zwischen %s und %s. Bitte warten sie ein/e/en %s und "
+"versuchen Sie es erneut."
+
+#~ msgid "Save template"
+#~ msgstr "Vorlage speichern"
+
+#~ msgid "Font family"
+#~ msgstr "Schriften-Familie"
+
+#, fuzzy
+#~ msgid "Settings concerning Newsletters."
+#~ msgstr "Newsletter verschicken"
+
+#, fuzzy
+#~ msgid "Footer text color"
+#~ msgstr "Fuss-Text"
+
+#, fuzzy
+#~ msgid "Finally send the newsletter."
+#~ msgstr "Inhalt des Newsletters"
+
+#~ msgid "Image Caption"
+#~ msgstr "Bildlegende"
+
+#~ msgid "Primary Button"
+#~ msgstr "Haupt-Button"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Done!"
+#~ msgstr "Erledigt!"
+
+#~ msgid "Address of welcome"
+#~ msgstr "Begrüssung"
+
+#~ msgid "Total records"
+#~ msgstr "Total Einträge"
+
+#~ msgid "sent"
+#~ msgstr "Gesendet"
+
+#~ msgid "at the"
+#~ msgstr "am"
+
+#~ msgid "not sent"
+#~ msgstr "Nicht gesendet"
+
+#~ msgid "Send over \"%s\" or directly"
+#~ msgstr "Über \"%s\" oder direkt verschicken"
+
+#~ msgid ""
+#~ "Number of emails allowed to be sent in a certain time. Please ask your "
+#~ "provider."
+#~ msgstr ""
+#~ "Anzahl erlaubter E-Mails in einer gewissen Zeitspanne. Bitte fragen Sie "
+#~ "Ihren Provider."
+
+#~ msgid "No recipients. Please send a Newsletter first."
+#~ msgstr "Keine Empfänger. Bitte erstellen Sie zuerst einen Newsletter."
+
+#~ msgid "Subscription Prices"
+#~ msgstr "Abo-Preise"
+
+#~ msgid "Automated jobs"
+#~ msgstr "Automated jobs"
+
+#~ msgid "Newsletter verschicken"
+#~ msgstr "Newsletter verschicken"
+
+#~ msgid "Verschickt Newsletter gemäss Einstellungen"
+#~ msgstr "Verschickt Newsletter gemäss Einstellungen"

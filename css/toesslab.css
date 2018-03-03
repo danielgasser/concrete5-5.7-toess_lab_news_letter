@@ -1,0 +1,252 @@
+/**
+ * Created by https://toesslab.ch/
+ * User: Daenu
+ * Date: 11/18/15
+ * Time: 1:26 AM
+ * Project: toesslab - Newsletter
+ * Description: Send Newsletters to registered users
+ * File: /packages/toess_lab_news_letter/css/toesslab.less
+ */
+body {
+  height: 100%;
+}
+#loader {
+  display: none;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100000;
+}
+#loader #loader_text {
+  width: 14%;
+  height: 2%;
+  margin: 28% 39%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.settings_logo {
+  margin: 0.5em 0 0.5em 0;
+}
+.sent_img {
+  max-width: 150px;
+}
+a.fancy {
+  color: #000;
+}
+a.fancy img {
+  height: 102px;
+}
+.ccm-ui legend {
+  margin-top: 20px;
+  margin-bottom: 10px !important;
+}
+.ccm-error {
+  color: #f79b2e;
+  font-weight: bold;
+}
+.list_uemail_sent {
+  max-height: 300px;
+  overflow-x: auto;
+}
+h5 {
+  font-size: 17px !important;
+  font-style: italic;
+}
+.ccm-file-selector-file-selected {
+  min-height: 123px;
+  max-height: 123px;
+}
+.file-col {
+  float: left;
+  padding: 0 2px;
+}
+.my-legend {
+  padding: 0;
+  display: block;
+  width: 100%;
+  margin: 20px 0 14px 0;
+  font-size: 18px;
+  line-height: inherit;
+  color: #333;
+  font-weight: bold;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.my-legend .main {
+  font-size: 23px;
+}
+.alert .glyphicon {
+  display: table-cell;
+}
+.alert .fa {
+  font-size: 30px;
+}
+.alert div,
+.alert span {
+  padding-left: 5px;
+  display: table-cell;
+  /*2eJJIXmA3qvk*/
+}
+.even {
+  background-color: rgba(227, 227, 227, 0.3);
+}
+.even .my-legend {
+  border-bottom: 1px solid #CCCACA;
+}
+.odd {
+  background-color: transparent;
+}
+.mailing {
+  margin-right: 0.5em;
+  background-color: transparent !important;
+}
+#show_mail_error {
+  display: none;
+}
+#mail_error_message {
+  cursor: pointer;
+}
+#mail_template_border p {
+  margin: 0 !important;
+}
+#redactor-dropdown-holder .dropdown-menu {
+  max-height: 250px;
+  overflow: auto;
+}
+.mail_texts {
+  max-height: 243px;
+  overflow-x: auto;
+}
+.bootstrap-switch .bootstrap-switch-label {
+  text-align: left !important;
+}
+#preview_go {
+  z-index: 10000;
+}
+.show_hide_file_settings {
+  display: none;
+}
+.newsletter-label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+.newsletter-padding {
+  background-color: #428bca;
+  padding: 5px 10px 15px 20px;
+}
+.newsletter-padding span {
+  background-color: white;
+}
+.newsletter-margin {
+  padding: 5px 10px 15px 20px;
+  background-color: #242729;
+}
+.input-group-addon {
+  min-width: 69px;
+}
+input,
+select {
+  z-index: 2;
+}
+.ccm-ui .input-group[class*="col-"] {
+  float: left !important;
+  padding-left: 10px !important;
+  padding-right: 0 !important;
+}
+#help_dialog {
+  display: none;
+  max-height: 400px !important;
+}
+#explanations_cli {
+  cursor: pointer;
+}
+#template_form .row {
+  margin-bottom: 1em;
+}
+#template_form input[type="number"] {
+  max-width: 75%;
+}
+#template_form select {
+  max-width: 25%;
+}
+#template_form [id$="border"] input[type="number"] {
+  max-width: 100%;
+}
+#template_form [id$="border"] select {
+  max-width: 100%;
+}
+#mail_template_newsletter {
+  display: none;
+}
+table.ccm-search-results-table tbody td input[type=checkbox],
+table.ccm-search-results-table tbody td input[type=radio] {
+  z-index: 89 !important;
+}
+#tpl {
+  width: 100%;
+  border: 1px solid #c6cbcf;
+  min-height: 250px;
+}
+#tpl_fixed {
+  overflow: auto;
+  max-height: 700px;
+}
+#ccm-menu-click-proxy {
+  width: 286px !important;
+  height: 123px !important;
+  z-index: 1 !important;
+}
+.ccm-tab-content {
+  z-index: 1560 !important;
+}
+.wait *{
+  cursor: wait !important;
+}
+
+#un_sub_select .ui-selecting {
+    background: #d9534f;
+}
+#sub_select .ui-selecting {
+    background: #5cb85c;
+}
+#un_sub_select .ui-selected {
+    background: #d9534f;
+    color: white;
+    border: 1px solid #d9534f;
+}
+#sub_select .ui-selected {
+    background: #5cb85c;
+    color: white;
+    border: 1px solid #5cb85c;
+}
+#sub_select, #un_sub_select {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#sub_select li, #un_sub_select li {
+    margin: 3px;
+    padding: 0.4em;
+    width: 60%;
+}
+ol[id$="sub_select"] {
+  border: 1px solid;
+  overflow-x: auto;
+  height: 500px;
+}
+.flow-it {
+  max-height: 110px;
+  height: 110px;
+  overflow-y: auto;
+}
+[id$="_insert_text"], [id$="_insert_body_text"], [id$="_insert_foot_text"] {
+  display: none;
+}
+[id*="_insert"] {
+  cursor: pointer;
+}

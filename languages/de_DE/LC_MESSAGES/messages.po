@@ -1,0 +1,2704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: c5_newsletter\n"
+"POT-Creation-Date: 2016-04-24 11:45+0200\n"
+"PO-Revision-Date: 2016-04-24 11:48+0200\n"
+"Last-Translator: toesslab - websolutions <software@toesslab.ch>\n"
+"Language-Team: toesslab - websolutions <software@toesslab.ch>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: t:1c,2;_;gettext;gettext_noop;t;dcngettext:2,3;t:1;"
+"t2:1,2;tc:1c,2;tc:2\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: controller.php:35
+msgid "Access Denied."
+msgstr "Zugang verweigert."
+
+#: controller.php:502
+msgid "Send Newsletters to registered users or any user group."
+msgstr ""
+"Verschicken Sie Newsletter an registrierte Benutzer oder an irgend eine "
+"Benutzergruppe."
+
+#: controller.php:507 controller.php:780 controller.php:1164
+msgid "toesslab - Newsletter"
+msgstr "toesslab - Newsletter"
+
+#: controller.php:723
+msgid "Receive toesslab - Newsletter"
+msgstr "toesslab - Newsletter bekommen"
+
+#: controller.php:737
+msgid "toesslab - First Name"
+msgstr "toesslab - Vorname"
+
+#: controller.php:750
+msgid "toesslab - Last Name"
+msgstr "toesslab - Nachname"
+
+#: controller.php:763
+msgid "toesslab - Address"
+msgstr "toesslab - Anrede"
+
+#: controller.php:788
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:352
+msgid "Yes"
+msgstr "Ja"
+
+#: controller.php:789
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:352
+msgid "No"
+msgstr "Nein"
+
+#: controller.php:800
+msgid "Madam"
+msgstr "Frau"
+
+#: controller.php:801
+msgid "Sir"
+msgstr "Herr"
+
+#: controller.php:802
+msgid "Dear Madam"
+msgstr "Liebe Frau"
+
+#: controller.php:803
+msgid "Dear Sir"
+msgstr "Lieber Herr"
+
+#: controller.php:804
+msgid "Dear"
+msgstr "Lieber"
+
+#: controller.php:805
+msgid "Mister"
+msgstr "Herr"
+
+#: controller.php:806
+msgid "Misses"
+msgstr "Frölein"
+
+#: controller.php:1165
+msgid "Newsletter Settings"
+msgstr "Newsletter Einstellungen"
+
+#: controller.php:1166
+msgid "Template List"
+msgstr "Vorlagenliste"
+
+#: controller.php:1167
+#: single_pages/dashboard/newsletter/templates/template_list.php:26
+#: single_pages/dashboard/newsletter/templates/template_list.php:123
+msgid "Add Template"
+msgstr "Vorlage hinzufügen"
+
+#: controller.php:1168
+msgid "Newsletter List"
+msgstr "NewsletterListe"
+
+#: controller.php:1169
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:38
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:180
+msgid "Add Newsletter"
+msgstr "Newsletter hinzufügen"
+
+#: controller.php:1170
+msgid "Test Email Settings"
+msgstr "E-Mail Einstellungen testen"
+
+#: controller.php:1171
+msgid "Send Mailing"
+msgstr "Sende Versand"
+
+#: controller.php:1172
+msgid "Mailing History"
+msgstr "Versand Verlauf"
+
+#: controller.php:1173
+msgid "Documentation: Getting Started"
+msgstr "Dokumentation: Erste Schritte"
+
+#: controller.php:1175
+msgid "Settings & Testing"
+msgstr "Einstellungen & Tests"
+
+#: controller.php:1176 controllers/single_page/dashboard/newsletter.php:29
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:71
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:31
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:53
+#: controllers/single_page/dashboard/newsletter/settings.php:80
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:80
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:34
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: controller.php:1177
+msgid "Email Test"
+msgstr "E-Mail Test"
+
+#: controller.php:1178
+msgid "Templates & Newsletters"
+msgstr "Vorlagen & Newsletter"
+
+#: controller.php:1179 controllers/single_page/dashboard/newsletter.php:33
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:75
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:35
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:57
+#: controllers/single_page/dashboard/newsletter/settings.php:84
+#: controllers/single_page/dashboard/newsletter/settings.php:174
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:84
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:38
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:125
+#: single_pages/dashboard/newsletter/send_mailing.php:235
+#: single_pages/dashboard/newsletter/send_mailing.php:298
+#: single_pages/dashboard/newsletter/send_mailing.php:299
+msgid "Template"
+msgid_plural "Templates"
+msgstr[0] "Vorlage"
+msgstr[1] "Vorlagen"
+
+#: controller.php:1180 controllers/single_page/dashboard/newsletter.php:24
+#: controllers/single_page/dashboard/newsletter.php:29
+#: controllers/single_page/dashboard/newsletter.php:33
+#: controllers/single_page/dashboard/newsletter.php:37
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:71
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:79
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:31
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:39
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:49
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:53
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:57
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:61
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:137
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:245
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:275
+#: controllers/single_page/dashboard/newsletter/settings.php:88
+#: controllers/single_page/dashboard/newsletter/settings.php:177
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:80
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:88
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:34
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:42
+#: single_pages/dashboard/newsletter/send_mailing.php:296
+#: single_pages/dashboard/newsletter/send_mailing.php:297
+#: single_pages/dashboard/newsletter/send_mailing.php:303
+msgid "Newsletter"
+msgid_plural "Newsletters"
+msgstr[0] "Newsletter"
+msgstr[1] "Newsletter"
+
+#: controller.php:1181
+msgid "Mailings & History"
+msgstr "Versände & Verlauf"
+
+#: controller.php:1182
+msgid "Mailings"
+msgstr "Versände"
+
+#: controller.php:1183
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:275
+msgid "History"
+msgstr "Verlauf"
+
+#: controllers/single_page/dashboard/newsletter.php:24
+#: controllers/single_page/dashboard/newsletter/settings.php:76
+#: controllers/single_page/dashboard/newsletter/test_email_settings.php:38
+msgid "Mail settings"
+msgstr "E-Mail Einstellungen"
+
+#: controllers/single_page/dashboard/newsletter.php:24
+#, php-format
+msgid ""
+"An error was found while sending a test email. Please adapt the global email "
+"settings at <a href=\"%s\">%s</a> before sending %ss."
+msgstr ""
+"Ein Fehler ist während des Versendens der Testnachricht aufgetreten. Bitte "
+"überprüfen Sie die globalen E-Mail Einstellungen unter <a href=\"%s\">%s</a> "
+"bevor Sie %ss versenden."
+
+#: controllers/single_page/dashboard/newsletter.php:29
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:53
+#, php-format
+msgid "Please adapt the <a href=\"%s\">%s</a> before sending %ss."
+msgstr ""
+"Bitte überprüfen Sie die <a href=\"%s\">%s</a> bevor Sie %ss versenden."
+
+#: controllers/single_page/dashboard/newsletter.php:33
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:57
+#, php-format
+msgid "Don't forget to design a <a href=\"%s\">%s</a> before sending %ss."
+msgstr ""
+"Vergessen Sie nicht, eine <a href=\"%s\">%s</a> bevor Sie %ss versenden."
+
+#: controllers/single_page/dashboard/newsletter.php:37
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:61
+#, php-format
+msgid "Don't forget to create a <a href=\"%s\">%s</a> before sending %ss."
+msgstr ""
+"Vergessen Sie nicht, einen <a href=\"%s\">%s</a> bevor Sie %ss versenden."
+
+#: controllers/single_page/dashboard/newsletter/newsletter_sent.php:25
+msgid "No Newsletter yet"
+msgstr "Keine Newsletter vorhanden"
+
+#: controllers/single_page/dashboard/newsletter/newsletter_sent.php:126
+#, php-format
+msgid "The Newsletter '%s' has been deleted"
+msgstr "Der Newsletter '%s' wurde gelöscht"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:71
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:31
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:80
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:34
+#, php-format
+msgid "Please adapt the <a href=\"%s\">%s</a> before sending newsletters."
+msgstr ""
+"Bitte passen Sie zuerst die <a href=\"%s\">%s</a> an, bevor Sie Newsletter "
+"verschicken."
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:75
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:35
+#: controllers/single_page/dashboard/newsletter/settings.php:84
+#: controllers/single_page/dashboard/newsletter/settings.php:174
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:84
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:38
+#, php-format
+msgid ""
+"Don't forget to design a <a href=\"%s\">%s</a> before sending Newsletters."
+msgstr ""
+"Vergessen Sie nicht, eine <a href=\"%s\">%s</a> zu gestalten, bevor Sie "
+"Newsletter verschicken."
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:79
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:39
+#: controllers/single_page/dashboard/newsletter/settings.php:88
+#: controllers/single_page/dashboard/newsletter/settings.php:177
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:88
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:42
+#, php-format
+msgid ""
+"Don't forget to create a <a href=\"%s\">%s</a> before sending Newsletters."
+msgstr ""
+"Vergessen Sie nicht, einen <a href=\"%s\">%s</a> zu erstellen, bevor Sie "
+"Newsletter verschicken."
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:114
+#, php-format
+msgid "Newsletter '%s' has been deleted"
+msgstr "Der Newsletter '%s' wurde gelöscht"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:149
+#, php-format
+msgid "Newsletter '%s' has not been duplicated"
+msgstr "Der Newsletter '%s' wurde nicht kopiert"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:156
+#, php-format
+msgid "Newsletter '%s' has been duplicated"
+msgstr "Der Newsletter '%s' wurde kopiert"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:202
+#, php-format
+msgid "The size of attachments is bigger than %s MB"
+msgstr "Die Grösse der Anhänge ist grösser als %s MB"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:210
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:218
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:226
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:119
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:295
+#, php-format
+msgid "The field \"%s\" is required"
+msgstr "Das Feld \"%s\" ist erforderlich"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:214
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:222
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:299
+#, php-format
+msgid "The field \"%s\" is limited to 255 characters"
+msgstr "Das Feld \"%s\" ist auf 255 Zeichen limitiert"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:259
+#, php-format
+msgid "The Newsletter name '%s' is already in use. Please choose another one."
+msgstr ""
+"Der Newsletter-Name '%s' ist bereits vergeben. Bitte wählen Sie einen "
+"Anderen."
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:263
+#, php-format
+msgid "The Newsletter '%s' has been saved"
+msgstr "Der Newsletter '%s' wurde gespeichert"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:304
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:107
+msgid "Header logo"
+msgstr "Kopf-Bild"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:305
+msgid "Newsletter name"
+msgstr "Newsletter Name"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:306
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:106
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:194
+msgid "Newsletter subject"
+msgstr "Newsletter Betreff"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:307
+msgid "Template name"
+msgstr "Name der Vorlage"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:308
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:34
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:43
+msgid "Head Section Content"
+msgstr "Kopfteil Inhalt"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:309
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:35
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:44
+msgid "Body Section Content"
+msgstr "Hauptteil Inhalt"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:310
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:36
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:45
+msgid "Footer Section Content"
+msgstr "Fussteil Inhalt"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:386
+msgid ""
+"This Newsletter is being sent at the moment. You can't edit or delete it."
+msgstr ""
+"Dieser Newsletter wird im Moment verschickt. Sie können ihn nicht bearbeiten "
+"oder  löschen."
+
+#: controllers/single_page/dashboard/newsletter/newsletters/new_newsletter.php:401
+#: single_pages/dashboard/newsletter/send_mailing.php:181
+msgid "Email"
+msgstr "E-Mail"
+
+#: controllers/single_page/dashboard/newsletter/newsletters/newsletter_list.php:44
+msgid "No Newsletter yet. Create one by clicking \"Add Newsletter\""
+msgstr ""
+"Keine Newsletter vorhanden. Erstellen sie einen, indem Sie auf \"Newsletter "
+"hinzufügen\" klicken"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:49
+#, php-format
+msgid ""
+"There are no users to send a %s to. Please add some users/groups or enable "
+"<a href=\"%s\">Public Registration</a> first."
+msgstr ""
+"Es sind keine Benutzer vorhanden, um einen %s zu verschicken. Bitte fügen "
+"Sie einige Benutzer hinzu oder schalten Sie die <a href=\"%s\">Öffentliche "
+"Registrierung</a> ein."
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:116
+msgid "No recipients found. Please choose another group"
+msgstr "Keine Empfänger gefunden. Bitte wählen Sie eine andere Benutzergruppe"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:122
+#, php-format
+msgid "The field \"%s\" is limited to %s characters"
+msgstr "Das Feld \"%s\" ist auf %s Zeichen beschränkt."
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:125
+#: single_pages/dashboard/newsletter/send_mailing.php:69
+msgid "Please choose a Newsletter to send"
+msgstr "Wählen Sie den zu verschickenden Newsletter"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:137
+#, php-format
+msgid "This %s has already been sent or saved as Automated Job"
+msgstr ""
+"Dieser %s is bereits verschickt oder als Automatisierter Auftrag gespeichert "
+"worden"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:192
+#, php-format
+msgid "The size of attachments is bigger than the allowed maximum of %s Bytes"
+msgstr ""
+"Die Grösse der Anhänge ist grösser als die erlaubte Gesamtgrösse von %s Bytes"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:245
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:260
+#, php-format
+msgid "The %s name '%s' is already in use. Please choose another one."
+msgstr "Der %s Name '%s' is bereits vergeben. Bitte wählen Sie einen anderen."
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:251
+#: jobs/send_mailing_as_job.php:134
+#, php-format
+msgid "%s emails successfully sent!"
+msgstr "%s E-Mails wurden erfolgreich verschickt!"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:260
+msgid "Mailing"
+msgstr "Versand"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:266
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:275
+#: single_pages/dashboard/newsletter/settings.php:91
+#: single_pages/dashboard/newsletter/settings.php:99
+#: single_pages/dashboard/newsletter/settings.php:107
+#: single_pages/dashboard/newsletter/settings.php:218
+#: single_pages/dashboard/newsletter/settings.php:219
+#: src/Concrete/Help/HelpServiceProvider.php:30
+#: src/Concrete/Help/HelpServiceProvider.php:58
+msgid "Automated Jobs"
+msgstr "Automatisierte Aufträge"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:266
+#, php-format
+msgid "%s emails will be sent as \"%s\". Dispatching starts at %s"
+msgstr "%s E-Mails werden als \"%s\" verschickt. Der Versand beginnt am %s"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:275
+#, php-format
+msgid ""
+"See all Newsletters already saved and/or sent at the <a href=\"%s\">%s</a>."
+msgstr ""
+"Sehen Sie alle Newsletter in <a href=\"%s\">%s</a>, die bereits gespeichert "
+"und/oder verschickt wurden, anzeigen."
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:296
+msgid "No results"
+msgstr "Keine Resultate"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:347
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:354
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:355
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:356
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:357
+msgid "not defined"
+msgstr "nicht definiert"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:384
+msgid "Mailing name"
+msgstr "Versand Name"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:412
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:414
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:416
+#: single_pages/dashboard/newsletter/newsletter_sent.php:54
+#: single_pages/dashboard/newsletter/newsletter_sent.php:56
+#: single_pages/dashboard/newsletter/newsletter_sent.php:58
+msgid "Automated job"
+msgstr "Automatisierter Auftrag"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:412
+#: single_pages/dashboard/newsletter/newsletter_sent.php:54
+#, php-format
+msgid "will be sent as %s"
+msgstr "wird als %s verschickt"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:414
+#: single_pages/dashboard/newsletter/newsletter_sent.php:56
+#, php-format
+msgid "has been sent as %s"
+msgstr "wurde als %s verschickt"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:416
+#: single_pages/dashboard/newsletter/newsletter_sent.php:58
+#, php-format
+msgid "has not been sent as %s"
+msgstr "wurde nicht als %s verschickt"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:421
+#: single_pages/dashboard/newsletter/newsletter_sent.php:62
+msgid "has been sent directly"
+msgstr "wurde direkt verschickt"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:431
+#, php-format
+msgid "Newsletter '%s' from the %s %s"
+msgstr "Newsletter '%s' vom %s %s"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:462
+msgid "at"
+msgstr "am"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:462
+msgid "until"
+msgstr "bis"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:463
+msgid "Not sent yet. Will be sent"
+msgstr "Noch nicht gesendet. Werden gesendet"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:463
+msgid "Sent"
+msgstr "Gesendet"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:466
+msgid "Has not been sent"
+msgstr "Wurde nicht verschickt"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:714
+#: single_pages/dashboard/newsletter/newsletter_sent.php:92
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:139
+msgid "No attachments"
+msgstr "Keine Anhänge"
+
+#: controllers/single_page/dashboard/newsletter/send_mailing.php:717
+#: single_pages/dashboard/newsletter/newsletter_sent.php:78
+#: single_pages/dashboard/newsletter/newsletter_sent.php:95
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:37
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:46
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:383
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:142
+#: single_pages/dashboard/newsletter/settings.php:60
+#: single_pages/dashboard/newsletter/settings.php:216
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:76
+#: controllers/single_page/dashboard/newsletter/test_email_settings.php:38
+#, php-format
+msgid ""
+"An error was found while sending a test email. Please adapt the global email "
+"settings at <a href=\"%s\">%s</a> before sending newsletters."
+msgstr ""
+"Ein Fehler ist während des Versendens der Testnachricht aufgetreten. Bitte "
+"überprüfen Sie die globalen E-Mail Einstellungen unter <a href=\"%s\">%s</a> "
+"bevor Sie Newsletter versenden."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:80
+#, php-format
+msgid "Please adapt these %s before sending newsletters."
+msgstr "Bitte passen Sie diese %s an, bevor Sie Newsletter versenden."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:131
+#, php-format
+msgid "The field \"%s\" is required and must be a valid email address."
+msgstr "Das Feld %s ist zwingend und muss eine gültige E-Mail Adresse sein."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:134
+#, php-format
+msgid "The field \"%s\" must be greater or equal to %s"
+msgstr "Das Feld \"%s\" muss grösser oder gleich %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:137
+#, php-format
+msgid "The field \"%s\" must be smaller or equal to %s"
+msgstr "Das Feld \"%s\" muss kleiner oder gleich %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:140
+#, php-format
+msgid "The field \"%s\" must be greater than 0"
+msgstr "Das Feld \"%s\" muss grösser als 0 sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:143
+#, php-format
+msgid "The field \"%s\" must be greater than %s"
+msgstr "Das Feld \"%s\" muss grösser als %s sein"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:171
+#: single_pages/dashboard/newsletter/settings.php:220
+msgid "Don't forget to install your cron job!"
+msgstr "Vergessen Sie nicht, Ihren cron job zu installieren!"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:171
+#, php-format
+msgid ""
+"Ask your provider or webmaster for further information and help. You may "
+"hand the below command to your provider or webmaster:<br><pre>%s</pre>"
+msgstr ""
+"Bitten Sie Ihren Anbieter oder Webmaster um weitere Informationen und Hilfe. "
+"Übergeben Sie den untenstehenden Befehl Ihrem Provider oder Webmaster:"
+"<br><pre>%s</pre>"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:180
+msgid "Settings have been saved"
+msgstr "Einstellungen wurden gespeichert"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:214
+msgid "Minute"
+msgstr "Minute"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:215
+msgid "Hour"
+msgstr "Stunde"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:216
+msgid "Day"
+msgstr "Tag"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:217
+msgid "Month"
+msgstr "Monat"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:219
+msgid "Maximum number of attachments to be sent with the Newsletter"
+msgstr "Anzahl angehängter Dateien, die mit dem Newsletter verschickt werden"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:220
+#, php-format
+msgid "Number of emails per %s"
+msgstr "Anzahl E-Mails pro %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:221
+msgid "Owner email"
+msgstr "Absender E-Mail"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:246
+#, php-format
+msgid "toesslab-Newsletter: Test message from %s"
+msgstr "toesslab-Newsletter: Test-Nachricht von %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:248
+#, php-format
+msgid ""
+"This is a test message from the toesslab-Newsletter addon from the site: %s"
+msgstr ""
+"Dies ist eine Test-Nachricht vom toesslab-Newsletter Addon Ihrer Site: %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:249
+msgid "Configuration:"
+msgstr "Konfiguration:"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:250
+#, php-format
+msgid "Send mail method: %s"
+msgstr "E-Mail Verschicken Art: %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:253
+#, php-format
+msgid "SMTP Server: %s"
+msgstr "SMTP Server: %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:254
+msgctxt "SMTP Port"
+msgid "default"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:254
+#, php-format
+msgid "SMTP Port: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:255
+msgctxt "SMTP Encryption"
+msgid "none"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:255
+#, php-format
+msgid "SMTP Encryption: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:257
+msgid "SMTP Authentication: none"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:260
+#, php-format
+msgid "SMTP Username: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:261
+msgctxt "Password"
+msgid "<hidden>"
+msgstr "<hidden>"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:261
+#, php-format
+msgid "SMTP Password: %s"
+msgstr ""
+
+#: controllers/single_page/dashboard/newsletter/settings.php:358
+#, php-format
+msgid "Exception Occurred. Unable to load Google Fonts from %s."
+msgstr ""
+"Ausnahme ist aufgetreten. Google Fonts konnten nicht von %s geladen werden"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:359
+#, php-format
+msgid "Error message: %s"
+msgstr "Fehler Meldung: %s"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:360
+msgctxt "Please contact support at <a href=\"%s\">support@toesslab.ch</a>"
+msgid "mailto:support@toesslab.ch"
+msgstr "mailto:support@toesslab.ch"
+
+#: controllers/single_page/dashboard/newsletter/settings.php:362
+#, php-format
+msgid ""
+"Unable to load Google Fonts. See the <a href=\"%s\">Logs</a> for more "
+"information."
+msgstr ""
+"Google Fonts konnten nicht von geladen werden. Mehr Informationen in den <a "
+"href=\"%s\">Protokollen</a>."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:463
+msgid "Please choose a Template/Newsletter first."
+msgstr "Bitte wählen Sie zuerst eine Vorlage/Newsletter."
+
+#: controllers/single_page/dashboard/newsletter/settings.php:496
+#, php-format
+msgid "The test email has been sent to %s"
+msgstr "Die Test-Nachricht wurde an %s verschickt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:105
+#: single_pages/dashboard/newsletter/templates/new_template.php:391
+msgid "Template Name"
+msgstr "Namer der Vorlage"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:109
+#: single_pages/dashboard/newsletter/templates/new_template.php:292
+#: single_pages/dashboard/newsletter/templates/new_template.php:321
+#: single_pages/dashboard/newsletter/templates/new_template.php:507
+#: single_pages/dashboard/newsletter/templates/new_template.php:583
+#: single_pages/dashboard/newsletter/templates/new_template.php:629
+#: single_pages/dashboard/newsletter/templates/new_template.php:755
+#: single_pages/dashboard/newsletter/templates/new_template.php:861
+#: single_pages/dashboard/newsletter/templates/new_template.php:907
+#: single_pages/dashboard/newsletter/templates/new_template.php:1032
+#: single_pages/dashboard/newsletter/templates/new_template.php:1139
+#: single_pages/dashboard/newsletter/templates/new_template.php:1185
+#: single_pages/dashboard/newsletter/templates/new_template.php:1310
+#: single_pages/dashboard/newsletter/templates/new_template.php:1441
+#: single_pages/dashboard/newsletter/templates/new_template.php:1491
+#: single_pages/dashboard/newsletter/templates/new_template.php:1590
+#: single_pages/dashboard/newsletter/templates/new_template.php:1639
+#: single_pages/dashboard/newsletter/templates/new_template.php:1738
+#: single_pages/dashboard/newsletter/templates/new_template.php:1787
+#: single_pages/dashboard/newsletter/templates/new_template.php:1886
+#: single_pages/dashboard/newsletter/templates/new_template.php:1935
+#: single_pages/dashboard/newsletter/templates/new_template.php:2034
+#: single_pages/dashboard/newsletter/templates/new_template.php:2083
+msgid "Left"
+msgstr "Links"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:110
+msgid "Center"
+msgstr "Zentriert"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:111
+#: single_pages/dashboard/newsletter/templates/new_template.php:290
+#: single_pages/dashboard/newsletter/templates/new_template.php:319
+#: single_pages/dashboard/newsletter/templates/new_template.php:487
+#: single_pages/dashboard/newsletter/templates/new_template.php:563
+#: single_pages/dashboard/newsletter/templates/new_template.php:609
+#: single_pages/dashboard/newsletter/templates/new_template.php:681
+#: single_pages/dashboard/newsletter/templates/new_template.php:841
+#: single_pages/dashboard/newsletter/templates/new_template.php:887
+#: single_pages/dashboard/newsletter/templates/new_template.php:958
+#: single_pages/dashboard/newsletter/templates/new_template.php:1119
+#: single_pages/dashboard/newsletter/templates/new_template.php:1165
+#: single_pages/dashboard/newsletter/templates/new_template.php:1236
+#: single_pages/dashboard/newsletter/templates/new_template.php:1421
+#: single_pages/dashboard/newsletter/templates/new_template.php:1471
+#: single_pages/dashboard/newsletter/templates/new_template.php:1570
+#: single_pages/dashboard/newsletter/templates/new_template.php:1619
+#: single_pages/dashboard/newsletter/templates/new_template.php:1718
+#: single_pages/dashboard/newsletter/templates/new_template.php:1767
+#: single_pages/dashboard/newsletter/templates/new_template.php:1866
+#: single_pages/dashboard/newsletter/templates/new_template.php:1915
+#: single_pages/dashboard/newsletter/templates/new_template.php:2014
+#: single_pages/dashboard/newsletter/templates/new_template.php:2063
+msgid "Right"
+msgstr "Rechts"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:114
+#: single_pages/dashboard/newsletter/templates/new_template.php:289
+#: single_pages/dashboard/newsletter/templates/new_template.php:290
+#: single_pages/dashboard/newsletter/templates/new_template.php:291
+#: single_pages/dashboard/newsletter/templates/new_template.php:292
+#: single_pages/dashboard/newsletter/templates/new_template.php:318
+#: single_pages/dashboard/newsletter/templates/new_template.php:319
+#: single_pages/dashboard/newsletter/templates/new_template.php:320
+#: single_pages/dashboard/newsletter/templates/new_template.php:321
+#: single_pages/dashboard/newsletter/templates/new_template.php:352
+#: single_pages/dashboard/newsletter/templates/new_template.php:363
+#: single_pages/dashboard/newsletter/templates/new_template.php:664
+#: single_pages/dashboard/newsletter/templates/new_template.php:701
+#: single_pages/dashboard/newsletter/templates/new_template.php:738
+#: single_pages/dashboard/newsletter/templates/new_template.php:775
+#: single_pages/dashboard/newsletter/templates/new_template.php:941
+#: single_pages/dashboard/newsletter/templates/new_template.php:978
+#: single_pages/dashboard/newsletter/templates/new_template.php:1015
+#: single_pages/dashboard/newsletter/templates/new_template.php:1052
+#: single_pages/dashboard/newsletter/templates/new_template.php:1219
+#: single_pages/dashboard/newsletter/templates/new_template.php:1256
+#: single_pages/dashboard/newsletter/templates/new_template.php:1293
+#: single_pages/dashboard/newsletter/templates/new_template.php:1330
+msgid "Pixels"
+msgstr "Pixel"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:115
+#: single_pages/dashboard/newsletter/templates/new_template.php:367
+msgid "Percent"
+msgstr "Prozent"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:127
+msgid "bold"
+msgstr "fett"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:128
+msgid "bolder"
+msgstr "fetter"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:129
+msgid "inherit"
+msgstr "vererbt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:130
+msgid "initial"
+msgstr "initial"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:131
+msgid "lighter"
+msgstr "leichter"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:132
+msgid "normal"
+msgstr "normal"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:136
+msgid "None"
+msgstr "Keine"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:137
+msgid "Hidden"
+msgstr "Versteckt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:138
+msgid "Dotted"
+msgstr "Gepunktet"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:139
+msgid "Dashed"
+msgstr "Gestrichelt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:140
+msgid "Solid"
+msgstr "Solide"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:141
+msgid "Double"
+msgstr "Doppelt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:142
+msgid "Groove"
+msgstr "Rille"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:143
+msgid "Ridge"
+msgstr "Grat"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:144
+msgid "Inset"
+msgstr "Eingefügt"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:145
+msgid "Outset"
+msgstr "Outset"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:146
+msgid "Initial"
+msgstr "Initial"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:181
+#, php-format
+msgid "This Template is attached to the Newsletter '%s'. You can't delete it."
+msgstr ""
+"Diese Vorlage ist mit dem Newsletter %s verknüpft. Sie können sie nicht "
+"löschen."
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:202
+#, php-format
+msgid "Template '%s' has been deleted"
+msgstr "Die Vorlage '%s' wurde gelöscht"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:255
+#, php-format
+msgid "Template '%s' has not been duplicated"
+msgstr "Die Vorlage '%s' wurde nicht kopiert"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:262
+#, php-format
+msgid "Template '%s' has been duplicated"
+msgstr "Die Vorlage '%s' wurde kopiert"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:324
+#, php-format
+msgid "The field \"%s\" must be an image. (%s)"
+msgstr "Das Feld \"%s\" muss ein Bild sein. (%s)"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:343
+#, php-format
+msgid "The Template name '%s' is already in use. Please choose another one."
+msgstr ""
+"Der Vorlage-Name '%s' ist bereits vergeben. Bitte wählen Sie einen Anderen."
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:366
+#, php-format
+msgid "The Template '%s' has been saved"
+msgstr "Der Newsletter '%s' wurde gespeichert"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:481
+msgid "Choose a Template"
+msgstr "Wählen Sie eine Vorlage"
+
+#: controllers/single_page/dashboard/newsletter/templates/new_template.php:545
+msgid "This Template is being sent at the moment. You can't edit or delete it."
+msgstr ""
+"Diese Vorlage wird im Moment verschickt. Sie können ihn nicht bearbeiten "
+"oder  löschen."
+
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:47
+msgid "No Templates yet. Create one by clicking \"Add Template\""
+msgstr ""
+"Keine Vorlage vorhanden. Erstellen sie eine, indem Sie auf \"Vorlage "
+"hinzufügen\" klicken"
+
+#: controllers/single_page/dashboard/newsletter/templates/template_list.php:81
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:131
+#: single_pages/dashboard/newsletter/send_mailing.php:38
+msgid "Subject"
+msgstr "Betreff"
+
+#: controllers/single_page/dashboard/newsletter/test_email_settings.php:47
+msgid "The email settings are fine."
+msgstr "Die E-Mail Einstellungen sind korrekt."
+
+#: jobs/send_mailing_as_job.php:32
+msgid "Sends Newsletters"
+msgstr "Newsletter verschicken"
+
+#: jobs/send_mailing_as_job.php:37
+msgid ""
+"Sends a Newsletter according to the settings defined in Newsletter Single "
+"Page"
+msgstr ""
+"Verschickt Newsletter gemäss den Einstellungen der Sonderseite Newsletter"
+
+#: jobs/send_mailing_as_job.php:76
+#, php-format
+msgid "No recipients between %s and %s. Please wait a %s and check again."
+msgstr ""
+"Keine Empfänger zwischen %s und %s. Bitte warten sie ein/e/en %s und "
+"versuchen Sie es erneut."
+
+#: jobs/send_mailing_as_job.php:125
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr "Mail Fehler aufgetreten, E-Mail konnte nicht gesendet werden:"
+
+#: jobs/send_mailing_as_job.php:126
+msgid "Mail Exception Occurred. Unable to send mail. See Logs"
+msgstr ""
+"Mail Fehler aufgetreten, E-Mail konnte nicht gesendet werden. Siehe "
+"Protokolle"
+
+#: mail/confirmation_template.php:13
+msgid "Newsletter sent or saved"
+msgstr "Verschickter oder gespeicherter Newsletter"
+
+#: single_pages/dashboard/newsletter.php:16
+#: single_pages/dashboard/newsletter/documentation/topics.php:16
+msgid "Templates"
+msgstr "Vorlage"
+
+#: single_pages/dashboard/newsletter.php:17
+#: single_pages/dashboard/newsletter/documentation/topics.php:17
+#: src/Concrete/Help/HelpServiceProvider.php:20
+msgid "Newsletters"
+msgstr "Newsletter"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:20
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:65
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:68
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:30
+#: single_pages/dashboard/newsletter/send_mailing.php:49
+#: single_pages/dashboard/newsletter/templates/template_list.php:18
+msgid "Warning"
+msgstr "Warnung"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:21
+#: single_pages/dashboard/newsletter/newsletter_sent.php:127
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:69
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:125
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:31
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:163
+#: single_pages/dashboard/newsletter/templates/new_template.php:234
+#: single_pages/dashboard/newsletter/templates/template_list.php:19
+#: single_pages/dashboard/newsletter/templates/template_list.php:106
+msgid "Delete"
+msgstr "Löschen"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:22
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:70
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:32
+#: single_pages/dashboard/newsletter/templates/template_list.php:20
+msgid "Do not delete"
+msgstr "Nicht löschen"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:25
+msgid "Are you sure you want to permanently remove this Mailing?"
+msgstr "Soll dieser Versand  definitiv gelöscht werden?"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:70
+#, php-format
+msgid "Mailing '%s' from the %s %s"
+msgstr "Versand '%s' vom %s %s"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:75
+msgid "Emails sent/not sent"
+msgstr "E-Mails gesendet/nicht gesendet"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:110
+msgid "Newsletter used"
+msgstr "Verwendeter Newsletter"
+
+#: single_pages/dashboard/newsletter/newsletter_sent.php:113
+msgid "Template used"
+msgstr "Verwendete Vorlage"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:23
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:23
+#: single_pages/dashboard/newsletter/send_mailing.php:23
+#, php-format
+msgid "You may attach up to %s files"
+msgstr "Sie können bis zu %s Dateien anhängen"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:33
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:42
+#: single_pages/dashboard/newsletter/send_mailing.php:28
+#: single_pages/dashboard/newsletter/templates/new_template.php:17
+#: single_pages/dashboard/newsletter/templates/new_template.php:26
+msgid "General"
+msgstr "Allgemein"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:38
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:47
+#: single_pages/dashboard/newsletter/send_mailing.php:31
+#: single_pages/dashboard/newsletter/templates/new_template.php:22
+#: single_pages/dashboard/newsletter/templates/new_template.php:31
+msgid "Send Test Message"
+msgstr "Test-E-Mail verschicken"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:57
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:176
+msgid "Edit Newsletter"
+msgstr "Newsletter bearbeiten"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:62
+msgid "Please save Newsletter to preview."
+msgstr "Bitte speichern Sie den Newsletter für die Vorschau."
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:66
+#: single_pages/dashboard/newsletter/send_mailing.php:48
+#: single_pages/dashboard/newsletter/templates/new_template.php:79
+msgid "Success"
+msgstr "Erfolg"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:67
+msgid "Save Newsletter anyway"
+msgstr "Newsletter trotzdem speichern"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:71
+msgid "Continue editing"
+msgstr "Weiter bearbeiten"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:124
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:158
+#: single_pages/dashboard/newsletter/templates/new_template.php:231
+#: single_pages/dashboard/newsletter/templates/template_list.php:101
+msgid "Duplicate"
+msgstr "Kopieren"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:133
+#: single_pages/dashboard/newsletter/send_mailing.php:70
+#: single_pages/dashboard/newsletter/templates/new_template.php:245
+msgid "Enter a valid email address first!"
+msgstr "Geben Sie zuerst eine gültige E-Mail Adresse ein!"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:134
+msgid "Please save the Newsletter first!"
+msgstr "Bitte speichern Sie zuerst den Newsletter!"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:136
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:35
+#: single_pages/dashboard/newsletter/send_mailing.php:68
+msgid "Are you sure you want to permanently remove this Newsletter?"
+msgstr "Soll dieser Newsletter endgültig gelöscht werden?"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:229
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:282
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:334
+msgid "Choose User Attributes to insert"
+msgstr "Wählen Sie die einzufügenden Benutzerattribute "
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:232
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:285
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:337
+msgid "Click desired attribute to be inserted at the cursors position."
+msgstr ""
+"Klicken Sie auf das gewünschte Attribut, um es an der Cursorposition "
+"einzufügen."
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:258
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:105
+msgid "Head Section Text"
+msgstr "Kopfteil Text"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:311
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:111
+msgid "Body Section Text"
+msgstr "Hauptteil Text"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:363
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:117
+msgid "Footer Section Text"
+msgstr "Fussteil Text"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:422
+#: single_pages/dashboard/newsletter/send_mailing.php:265
+#: single_pages/dashboard/newsletter/templates/new_template.php:2102
+#: single_pages/dashboard/newsletter/test_email_settings.php:22
+msgid "Recipient"
+msgstr "Empfänger"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:440
+msgid "Save Newsletter"
+msgstr "Newsletter speichern"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:448
+msgid ""
+"You are about to save an empty Newsletter. Are you sure you want to save it?"
+msgstr "Dieser Newsletter ist leer. Möchten Sie ihn trotzdem speichern?"
+
+#: single_pages/dashboard/newsletter/newsletters/new_newsletter.php:453
+#: single_pages/dashboard/newsletter/send_mailing.php:279
+#: single_pages/dashboard/newsletter/templates/new_template.php:2124
+msgid "Preview"
+msgstr "Vorschau"
+
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:177
+#: single_pages/dashboard/newsletter/templates/new_template.php:75
+#: single_pages/dashboard/newsletter/templates/template_list.php:121
+msgid "Edit Template"
+msgstr "Vorlage bearbeiten"
+
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:178
+#: single_pages/dashboard/newsletter/templates/template_list.php:122
+msgid "Edit a Template by clicking this link."
+msgstr "Diesen Link klicken, um eine Vorlage zu bearbeiten."
+
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:179
+msgid "Edit a Newsletter by clicking this link."
+msgstr "Diesen Link klicken, um einen Newsletter zu bearbeiten."
+
+#: single_pages/dashboard/newsletter/newsletters/newsletter_list.php:181
+msgid "Add a new Newsletter by clicking here."
+msgstr "Klicken Sie hier, um einen Newsletter hinzuzufügen."
+
+#: single_pages/dashboard/newsletter/send_mailing.php:29
+msgid "User groups"
+msgstr "Benutzergruppen"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:30
+msgid "Template/Newsletter"
+msgstr "Vorlage/Newsletter"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:39
+#: single_pages/dashboard/newsletter/send_mailing.php:152
+msgid "Selected users"
+msgstr "Ausgewählte Benutzer"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:40
+msgid "No users selected"
+msgstr "Keine Benutzer ausgewählt"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:47
+msgid "more attachments posssible"
+msgstr "Anhänge mehr möglich"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:120
+msgid "Send the Newsletter to the following user group"
+msgstr "Newsletter an folgende Benutzergruppe schicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:125
+#: single_pages/dashboard/newsletter/send_mailing.php:294
+msgid "User group"
+msgstr "Benutzergruppe"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:175
+msgid "send?"
+msgstr "Schicken?"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:176
+msgid "User name"
+msgstr "Benutzer Name"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:177
+msgid "Wants to receive Newsletter"
+msgstr "Möchte Newsletter empfangen"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:178
+msgid "User address"
+msgstr "Benutzer Anrede"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:179
+msgid "User first name"
+msgstr "Benutzer Vorname"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:180
+msgid "User last name"
+msgstr "Benutzer Nachname"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:224
+msgid "Choose a Newsletter"
+msgstr "Wählen Sie einen Newsletter"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:226
+msgid "Please choose"
+msgstr "Bitte wählen Sie"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:280
+#: src/Concrete/Help/HelpServiceProvider.php:35
+msgid "Send Newsletter"
+msgstr "Newsletter verschicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:293
+msgid "The name or handle is used to identify this Newsletter"
+msgstr ""
+"Der Name oder Kennung wird zur Identifizierung des Newsletters verwendet"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:295
+msgid "The user group this Newsletter will be sent to"
+msgstr "Die Benutzergruppe, an die dieser Newsletter verschickt werden soll"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:296
+#: single_pages/dashboard/newsletter/send_mailing.php:298
+#, php-format
+msgid "Choose %s"
+msgstr "Wählen Sie %s"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:297
+#, php-format
+msgid "Choose an existing Newsletter or create a new one by clicking Add %s"
+msgstr ""
+"Wählen Sie einen bestehenden Newsletter oder erstellen Sie einen Neuen, "
+"indem Sie auf %s hinzufügen klicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:299
+#, php-format
+msgid "Choose an existing Template or create a new one by clicking Add %s"
+msgstr ""
+"Wählen Sie eine bestehende Vorlage oder erstellen Sie eine Neue, indem Sie "
+"%s hinzufügen klicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:300
+msgid "Send test message"
+msgstr "Test-E-Mail verschicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:301
+msgid "Send a test message to the recipient entered here"
+msgstr ""
+"Senden Sie dem hier eingegebenen Empfänger Ihrer Wahl eine Test-Nachricht"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:302
+msgid "Send"
+msgstr "Abschicken"
+
+#: single_pages/dashboard/newsletter/send_mailing.php:303
+#, php-format
+msgid "Send the %s."
+msgstr "%s verschicken."
+
+#: single_pages/dashboard/newsletter/settings.php:53
+msgid "Required fields"
+msgstr "Pflichtfelder"
+
+#: single_pages/dashboard/newsletter/settings.php:70
+msgid "Size of <i>one</i> Attachment"
+msgstr "Grösse <i>eines</i> Anhangs"
+
+#: single_pages/dashboard/newsletter/settings.php:75
+#: single_pages/dashboard/newsletter/settings.php:84
+msgid "MB"
+msgstr "MB"
+
+#: single_pages/dashboard/newsletter/settings.php:80
+msgid "Total attachments size"
+msgstr "Total Grösse Anhänge"
+
+#: single_pages/dashboard/newsletter/settings.php:84
+#, php-format
+msgid "Size of <i id=\"all_attachment_size\">%s</i> Attachments: "
+msgstr "Grösse der <i id=\"all_attachment_size\">%s</i> Anhänge: "
+
+#: single_pages/dashboard/newsletter/settings.php:91
+#, php-format
+msgid "Send by \"<a href=\"%s\">%s</a>\" or directly"
+msgstr "Direkt oder über \"<a href=\"%s\">%s</a>\" senden"
+
+#: single_pages/dashboard/newsletter/settings.php:96
+msgid "Send by"
+msgstr "Abschicken als"
+
+#: single_pages/dashboard/newsletter/settings.php:99
+#: single_pages/dashboard/newsletter/settings.php:108
+#: src/Concrete/Help/HelpServiceProvider.php:31
+msgid "Send directly"
+msgstr "Direktversand"
+
+#: single_pages/dashboard/newsletter/settings.php:103
+#: single_pages/dashboard/newsletter/settings.php:136
+msgid "Warning!"
+msgstr "Warnung!"
+
+#: single_pages/dashboard/newsletter/settings.php:107
+#, php-format
+msgid "If your provider dictates a limit, please send over \"%s\""
+msgstr "Falls Ihr Provider eine Limite vorgibt, bitte über \"%s\" verschicken"
+
+#: single_pages/dashboard/newsletter/settings.php:108
+#: src/Concrete/Help/HelpServiceProvider.php:31
+#, php-format
+msgid "The option \"%s\" only suits for small amount of recipients."
+msgstr "Die Option \"%s\" ist nur für eine kleine Anzahl Empfänger gedacht."
+
+#: single_pages/dashboard/newsletter/settings.php:109
+#: single_pages/dashboard/newsletter/settings.php:143
+#: src/Concrete/Help/HelpServiceProvider.php:32
+msgid "Ask your provider or webmaster for further information and help."
+msgstr ""
+"Bitten Sie Ihren Anbieter oder Webmaster um weitere Informationen und Hilfe."
+
+#: single_pages/dashboard/newsletter/settings.php:120
+#: single_pages/dashboard/newsletter/settings.php:221
+msgid "Number per time unit"
+msgstr "Anzahl pro Zeiteinheit"
+
+#: single_pages/dashboard/newsletter/settings.php:128
+msgid "per"
+msgstr "pro"
+
+#: single_pages/dashboard/newsletter/settings.php:141
+msgid ""
+"Some providers limits the number of emails being sent in a certain time "
+"interval (Eg. 100 emails per hour)."
+msgstr ""
+"Manche Anbieter beschränken die Anzahl E-Mails, die in einer gewissen Zeit "
+"verschickt werden dürfen (z.B. 100 E-Mails pro Stunde)"
+
+#: single_pages/dashboard/newsletter/settings.php:151
+msgid "Command for crontab"
+msgstr "Befehl für crontab"
+
+#: single_pages/dashboard/newsletter/settings.php:157
+msgid "Crontab command"
+msgstr "Crontab Befehl"
+
+#: single_pages/dashboard/newsletter/settings.php:164
+msgid "Don't forget to adapt your cron job!"
+msgstr "Vergessen Sie nicht, Ihren cron job anzupassen!"
+
+#: single_pages/dashboard/newsletter/settings.php:173
+msgid "Info"
+msgstr "Info"
+
+#: single_pages/dashboard/newsletter/settings.php:177
+msgid "This command is for crontab only."
+msgstr "Dieser Befehl ist nur für crontab."
+
+#: single_pages/dashboard/newsletter/settings.php:178
+msgid "The path to the '<i>wget</i>' or '<i>get</i>' program may be different."
+msgstr "Der Pfad zum Programm '<i>wget</i>' oder '<i>get</i>' kann abweichen."
+
+#: single_pages/dashboard/newsletter/settings.php:185
+#: single_pages/dashboard/newsletter/settings.php:227
+msgid "Newsletter-report per email"
+msgstr "Newsletter-Rapport per E-Mail"
+
+#: single_pages/dashboard/newsletter/settings.php:188
+#: single_pages/dashboard/newsletter/settings.php:192
+msgid "Report"
+msgstr "Rapport"
+
+#: single_pages/dashboard/newsletter/settings.php:197
+msgid "Sender email address"
+msgstr "Absender E-Mail Adresse"
+
+#: single_pages/dashboard/newsletter/settings.php:200
+#: single_pages/dashboard/newsletter/settings.php:229
+msgid "Email address"
+msgstr "E-Mail Adresse"
+
+#: single_pages/dashboard/newsletter/settings.php:209
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: single_pages/dashboard/newsletter/settings.php:217
+msgid "Set the maximum number of attachments."
+msgstr "Die maximale Anzahl von Anhängen bestimmen."
+
+#: single_pages/dashboard/newsletter/settings.php:218
+#, php-format
+msgid ""
+"Send by \"<a href=\"/dashboard/system/optimization/jobs\">%s</a>\" or "
+"directly"
+msgstr ""
+"Über \"<a href=\"/dashboard/system/optimization/jobs\">%s</a>\"  oder direkt "
+"senden"
+
+#: single_pages/dashboard/newsletter/settings.php:219
+#, php-format
+msgid "Define if a Newsletter should be sent by \"%s\" or directly."
+msgstr ""
+"Bestimmen, ob ein Newsletter über \"%s\" oder direkt verschickt werden soll:"
+
+#: single_pages/dashboard/newsletter/settings.php:222
+msgid "Set the number of mails being sent per time unit"
+msgstr ""
+"Bestimmen Sie die Anzahl E-Mails, die pro Zeiteinheit verschickt werden"
+
+#: single_pages/dashboard/newsletter/settings.php:223
+msgid "Cronjob"
+msgstr "Cronjob"
+
+#: single_pages/dashboard/newsletter/settings.php:224
+msgid "You may hand this command to your provider or webmaster."
+msgstr "Übergeben Sie diesen Befehl an Ihren Provider oder Webmaster."
+
+#: single_pages/dashboard/newsletter/settings.php:225
+msgid "Time unit"
+msgstr "Zeiteinheit"
+
+#: single_pages/dashboard/newsletter/settings.php:226
+msgid "Set the time unit for number of mails set in step 3"
+msgstr ""
+"Bestimmen Sie die Zeiteinheit für die in Schritt 3 bestimmte Anzahl E-Mails"
+
+#: single_pages/dashboard/newsletter/settings.php:228
+msgid "Would you like to receive a report about this Newsletter?"
+msgstr "Möchten Sie einen Rapport über diesen Newsletter erhalten?"
+
+#: single_pages/dashboard/newsletter/settings.php:230
+msgid "The senders email address. \"From\" and \"Reply to\""
+msgstr "Die Absender E-Mail Adresse, \"Von\" und \"Antwort an\""
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:18
+#: single_pages/dashboard/newsletter/templates/new_template.php:27
+msgid "Head Section"
+msgstr "Kopfteil"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:19
+#: single_pages/dashboard/newsletter/templates/new_template.php:28
+msgid "Body Section"
+msgstr "Hauptteil"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:20
+#: single_pages/dashboard/newsletter/templates/new_template.php:29
+msgid "Footer Section"
+msgstr "Fussteil"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:21
+#: single_pages/dashboard/newsletter/templates/new_template.php:30
+msgid "Headers"
+msgstr "Überschriften"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:36
+msgid "Image"
+msgstr "Bild"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:37
+#: single_pages/dashboard/newsletter/templates/new_template.php:43
+#: single_pages/dashboard/newsletter/templates/new_template.php:49
+msgid "Background"
+msgstr "Hintergrund"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:38
+#: single_pages/dashboard/newsletter/templates/new_template.php:44
+#: single_pages/dashboard/newsletter/templates/new_template.php:50
+#: single_pages/dashboard/newsletter/templates/new_template.php:269
+#: single_pages/dashboard/newsletter/templates/new_template.php:278
+#: single_pages/dashboard/newsletter/templates/new_template.php:289
+#: single_pages/dashboard/newsletter/templates/new_template.php:290
+#: single_pages/dashboard/newsletter/templates/new_template.php:291
+#: single_pages/dashboard/newsletter/templates/new_template.php:292
+#: single_pages/dashboard/newsletter/templates/new_template.php:1405
+#: single_pages/dashboard/newsletter/templates/new_template.php:1554
+#: single_pages/dashboard/newsletter/templates/new_template.php:1702
+#: single_pages/dashboard/newsletter/templates/new_template.php:1850
+#: single_pages/dashboard/newsletter/templates/new_template.php:1998
+msgid "Padding"
+msgstr "Füllung"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:39
+#: single_pages/dashboard/newsletter/templates/new_template.php:45
+#: single_pages/dashboard/newsletter/templates/new_template.php:51
+#: single_pages/dashboard/newsletter/templates/new_template.php:298
+#: single_pages/dashboard/newsletter/templates/new_template.php:309
+#: single_pages/dashboard/newsletter/templates/new_template.php:318
+#: single_pages/dashboard/newsletter/templates/new_template.php:319
+#: single_pages/dashboard/newsletter/templates/new_template.php:320
+#: single_pages/dashboard/newsletter/templates/new_template.php:321
+#: single_pages/dashboard/newsletter/templates/new_template.php:1454
+#: single_pages/dashboard/newsletter/templates/new_template.php:1603
+#: single_pages/dashboard/newsletter/templates/new_template.php:1751
+#: single_pages/dashboard/newsletter/templates/new_template.php:1899
+#: single_pages/dashboard/newsletter/templates/new_template.php:2047
+msgid "Margin"
+msgstr "Marge"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:40
+#: single_pages/dashboard/newsletter/templates/new_template.php:46
+#: single_pages/dashboard/newsletter/templates/new_template.php:52
+msgid "Borders"
+msgstr "Ränder"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:55
+#: single_pages/dashboard/newsletter/templates/new_template.php:1365
+#: single_pages/dashboard/newsletter/templates/new_template.php:1373
+#: single_pages/dashboard/newsletter/templates/new_template.php:1385
+#: single_pages/dashboard/newsletter/templates/new_template.php:1393
+msgid "1"
+msgstr "1"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:55
+#: single_pages/dashboard/newsletter/templates/new_template.php:56
+#: single_pages/dashboard/newsletter/templates/new_template.php:57
+#: single_pages/dashboard/newsletter/templates/new_template.php:58
+#: single_pages/dashboard/newsletter/templates/new_template.php:59
+#, php-format
+msgid "Header %s"
+msgstr "Überschrift %s"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:56
+#: single_pages/dashboard/newsletter/templates/new_template.php:1514
+#: single_pages/dashboard/newsletter/templates/new_template.php:1522
+#: single_pages/dashboard/newsletter/templates/new_template.php:1534
+#: single_pages/dashboard/newsletter/templates/new_template.php:1542
+msgid "2"
+msgstr "2"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:57
+#: single_pages/dashboard/newsletter/templates/new_template.php:1662
+#: single_pages/dashboard/newsletter/templates/new_template.php:1670
+#: single_pages/dashboard/newsletter/templates/new_template.php:1682
+#: single_pages/dashboard/newsletter/templates/new_template.php:1690
+msgid "3"
+msgstr "3"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:58
+#: single_pages/dashboard/newsletter/templates/new_template.php:1810
+#: single_pages/dashboard/newsletter/templates/new_template.php:1818
+#: single_pages/dashboard/newsletter/templates/new_template.php:1830
+#: single_pages/dashboard/newsletter/templates/new_template.php:1838
+msgid "4"
+msgstr "4"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:59
+#: single_pages/dashboard/newsletter/templates/new_template.php:1958
+#: single_pages/dashboard/newsletter/templates/new_template.php:1966
+#: single_pages/dashboard/newsletter/templates/new_template.php:1978
+#: single_pages/dashboard/newsletter/templates/new_template.php:1986
+msgid "5"
+msgstr "5"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:77
+msgid "Don't show this Help anymore"
+msgstr "Diese Hilfe nicht mehr anzeigen"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:78
+msgid "Styling Help"
+msgstr "Gestaltungs-Hilfe"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:221
+#: single_pages/dashboard/newsletter/templates/template_list.php:24
+msgid "Are you sure you want to permanently remove this Template?"
+msgstr "Soll diese Vorlage endgültig gelöscht werden?"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:225
+msgid "Show Styling Help Dialog"
+msgstr "Gestaltungs-Hilfe anzeigen"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:246
+msgid "Please save the Template first!"
+msgstr "Bitte speichern Sie zuerst die Vorlage!"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:275
+#: single_pages/dashboard/newsletter/templates/new_template.php:307
+#: single_pages/dashboard/newsletter/templates/new_template.php:344
+msgid "Explanation"
+msgstr "Erklärung"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:282
+msgid "is the distance between the container and the inner content."
+msgstr "ist die Distanz zwischen dem Container und dessen Inhalt."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:286
+msgid "In this example the padding is as follows:"
+msgstr "In diesem Beispiel ist die Füllung wie folgt:"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:289
+#: single_pages/dashboard/newsletter/templates/new_template.php:318
+#: single_pages/dashboard/newsletter/templates/new_template.php:478
+#: single_pages/dashboard/newsletter/templates/new_template.php:554
+#: single_pages/dashboard/newsletter/templates/new_template.php:600
+#: single_pages/dashboard/newsletter/templates/new_template.php:644
+#: single_pages/dashboard/newsletter/templates/new_template.php:832
+#: single_pages/dashboard/newsletter/templates/new_template.php:878
+#: single_pages/dashboard/newsletter/templates/new_template.php:921
+#: single_pages/dashboard/newsletter/templates/new_template.php:1110
+#: single_pages/dashboard/newsletter/templates/new_template.php:1156
+#: single_pages/dashboard/newsletter/templates/new_template.php:1199
+#: single_pages/dashboard/newsletter/templates/new_template.php:1412
+#: single_pages/dashboard/newsletter/templates/new_template.php:1461
+#: single_pages/dashboard/newsletter/templates/new_template.php:1561
+#: single_pages/dashboard/newsletter/templates/new_template.php:1610
+#: single_pages/dashboard/newsletter/templates/new_template.php:1709
+#: single_pages/dashboard/newsletter/templates/new_template.php:1758
+#: single_pages/dashboard/newsletter/templates/new_template.php:1857
+#: single_pages/dashboard/newsletter/templates/new_template.php:1906
+#: single_pages/dashboard/newsletter/templates/new_template.php:2005
+#: single_pages/dashboard/newsletter/templates/new_template.php:2054
+msgid "Top"
+msgstr "Oben"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:291
+#: single_pages/dashboard/newsletter/templates/new_template.php:320
+#: single_pages/dashboard/newsletter/templates/new_template.php:498
+#: single_pages/dashboard/newsletter/templates/new_template.php:574
+#: single_pages/dashboard/newsletter/templates/new_template.php:620
+#: single_pages/dashboard/newsletter/templates/new_template.php:718
+#: single_pages/dashboard/newsletter/templates/new_template.php:852
+#: single_pages/dashboard/newsletter/templates/new_template.php:898
+#: single_pages/dashboard/newsletter/templates/new_template.php:995
+#: single_pages/dashboard/newsletter/templates/new_template.php:1130
+#: single_pages/dashboard/newsletter/templates/new_template.php:1176
+#: single_pages/dashboard/newsletter/templates/new_template.php:1273
+#: single_pages/dashboard/newsletter/templates/new_template.php:1432
+#: single_pages/dashboard/newsletter/templates/new_template.php:1482
+#: single_pages/dashboard/newsletter/templates/new_template.php:1581
+#: single_pages/dashboard/newsletter/templates/new_template.php:1630
+#: single_pages/dashboard/newsletter/templates/new_template.php:1729
+#: single_pages/dashboard/newsletter/templates/new_template.php:1778
+#: single_pages/dashboard/newsletter/templates/new_template.php:1877
+#: single_pages/dashboard/newsletter/templates/new_template.php:1926
+#: single_pages/dashboard/newsletter/templates/new_template.php:2025
+#: single_pages/dashboard/newsletter/templates/new_template.php:2074
+msgid "Bottom"
+msgstr "Unten"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:312
+msgid ""
+"is the distance between the containers and/or its parent container, in this "
+"case this would be the email container."
+msgstr ""
+"ist die Distanz zwischen dem Container und dessen Inhalt. In diesem Fall der "
+"E-Mail Container."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:315
+msgid "In this example the margin is as follows:"
+msgstr "In diesem Beispiel ist die Marge wie folgt:"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:327
+#: single_pages/dashboard/newsletter/templates/new_template.php:352
+#: single_pages/dashboard/newsletter/templates/new_template.php:534
+#: single_pages/dashboard/newsletter/templates/new_template.php:815
+#: single_pages/dashboard/newsletter/templates/new_template.php:1093
+msgid "Minimum height"
+msgstr "minimale Höhe"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:346
+msgid ""
+"The minimum height defines the height a container <em>must</em> have. If the "
+"content is bigger than this height, the height will be adapted automatically."
+msgstr ""
+"Die minimale Höhe definiert die Höhe eines Containers, die er haben "
+"<em>muss</em>. Wenn der Inhalt grösser als diese Höhe ist, wird die Höhe "
+"automatisch angepasst."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:349
+msgid "In this example the minimum height is as follows:"
+msgstr "In diesem Beispiel ist die minimale Höhe wie folgt:"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:358
+msgid "Units"
+msgstr "Einheiten"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:360
+msgid "Following CSS units are allowed:"
+msgstr "Folgende CSS-Einheiten sind erlaubt:"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:360
+msgid "Hint:"
+msgstr "Hinweis:"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:360
+msgid "For this purpose (sending emails) you should use pixels or percents."
+msgstr ""
+"Zu diesem Zweck (E-Mails verschicken) sollten Sie Pixels oder Prozent "
+"benutzen."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:365
+msgid ""
+"In digital imaging, a pixel, pel, or picture element is a physical point in "
+"a raster image, or the smallest addressable element in an all points "
+"addressable display device."
+msgstr ""
+"Mit Pixel, Bildpunkt, Bildzelle oder Bildelement werden die einzelnen "
+"Farbwerte einer digitalen Rastergrafik bezeichnet."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:365
+#: single_pages/dashboard/newsletter/templates/new_template.php:373
+msgid "https://en.wikipedia.org/wiki/Pixel"
+msgstr "https://de.wikipedia.org/wiki/Pixel"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:365
+#: single_pages/dashboard/newsletter/templates/new_template.php:369
+msgid "Read more"
+msgstr "Lesen Sie mehr"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:369
+msgid ""
+"The percentage CSS data types represent a percentage value. Many CSS "
+"properties can take percentage values, often to define sizes in terms of "
+"parent objects."
+msgstr ""
+"Der CSS Datentyp repräsentiert einen Prozentwert. Viele CSS Eigenschaften "
+"akzeptieren Prozentwerte, oft um Größen bezüglich Elternobjekten zu "
+"definieren."
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:369
+#: single_pages/dashboard/newsletter/templates/new_template.php:375
+msgid "https://developer.mozilla.org/en/docs/Web/CSS/percentage"
+msgstr "https://developer.mozilla.org/de/docs/Web/CSS/percentage"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:372
+#: single_pages/dashboard/newsletter/templates/new_template.php:374
+msgid "Reference"
+msgstr "Verweis"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:422
+msgid "Header image"
+msgstr "Kopf-Bild"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:433
+msgid "Position"
+msgstr "Position"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:441
+#: single_pages/dashboard/newsletter/templates/new_template.php:660
+#: single_pages/dashboard/newsletter/templates/new_template.php:697
+#: single_pages/dashboard/newsletter/templates/new_template.php:734
+#: single_pages/dashboard/newsletter/templates/new_template.php:771
+#: single_pages/dashboard/newsletter/templates/new_template.php:937
+#: single_pages/dashboard/newsletter/templates/new_template.php:974
+#: single_pages/dashboard/newsletter/templates/new_template.php:1011
+#: single_pages/dashboard/newsletter/templates/new_template.php:1048
+#: single_pages/dashboard/newsletter/templates/new_template.php:1215
+#: single_pages/dashboard/newsletter/templates/new_template.php:1252
+#: single_pages/dashboard/newsletter/templates/new_template.php:1289
+#: single_pages/dashboard/newsletter/templates/new_template.php:1326
+msgid "Width"
+msgstr "Dicke"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:454
+msgid "Height"
+msgstr "Höhe"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:471
+msgid "Header image & text position"
+msgstr "Kopfbild & -textposition"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:524
+#: single_pages/dashboard/newsletter/templates/new_template.php:805
+#: single_pages/dashboard/newsletter/templates/new_template.php:1083
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:644
+#: single_pages/dashboard/newsletter/templates/new_template.php:681
+#: single_pages/dashboard/newsletter/templates/new_template.php:718
+#: single_pages/dashboard/newsletter/templates/new_template.php:755
+#: single_pages/dashboard/newsletter/templates/new_template.php:921
+#: single_pages/dashboard/newsletter/templates/new_template.php:958
+#: single_pages/dashboard/newsletter/templates/new_template.php:995
+#: single_pages/dashboard/newsletter/templates/new_template.php:1032
+#: single_pages/dashboard/newsletter/templates/new_template.php:1199
+#: single_pages/dashboard/newsletter/templates/new_template.php:1236
+#: single_pages/dashboard/newsletter/templates/new_template.php:1273
+#: single_pages/dashboard/newsletter/templates/new_template.php:1310
+msgid "Border"
+msgstr "Rand"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:652
+#: single_pages/dashboard/newsletter/templates/new_template.php:689
+#: single_pages/dashboard/newsletter/templates/new_template.php:726
+#: single_pages/dashboard/newsletter/templates/new_template.php:763
+#: single_pages/dashboard/newsletter/templates/new_template.php:929
+#: single_pages/dashboard/newsletter/templates/new_template.php:966
+#: single_pages/dashboard/newsletter/templates/new_template.php:1003
+#: single_pages/dashboard/newsletter/templates/new_template.php:1040
+#: single_pages/dashboard/newsletter/templates/new_template.php:1207
+#: single_pages/dashboard/newsletter/templates/new_template.php:1244
+#: single_pages/dashboard/newsletter/templates/new_template.php:1281
+#: single_pages/dashboard/newsletter/templates/new_template.php:1318
+msgid "Style"
+msgstr "Stil"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:670
+#: single_pages/dashboard/newsletter/templates/new_template.php:707
+#: single_pages/dashboard/newsletter/templates/new_template.php:744
+#: single_pages/dashboard/newsletter/templates/new_template.php:781
+#: single_pages/dashboard/newsletter/templates/new_template.php:947
+#: single_pages/dashboard/newsletter/templates/new_template.php:984
+#: single_pages/dashboard/newsletter/templates/new_template.php:1021
+#: single_pages/dashboard/newsletter/templates/new_template.php:1058
+#: single_pages/dashboard/newsletter/templates/new_template.php:1225
+#: single_pages/dashboard/newsletter/templates/new_template.php:1262
+#: single_pages/dashboard/newsletter/templates/new_template.php:1299
+#: single_pages/dashboard/newsletter/templates/new_template.php:1336
+#: single_pages/dashboard/newsletter/templates/new_template.php:1393
+#: single_pages/dashboard/newsletter/templates/new_template.php:1542
+#: single_pages/dashboard/newsletter/templates/new_template.php:1690
+#: single_pages/dashboard/newsletter/templates/new_template.php:1838
+#: single_pages/dashboard/newsletter/templates/new_template.php:1986
+msgid "Color"
+msgstr "Farbe"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:1357
+#: single_pages/dashboard/newsletter/templates/new_template.php:1506
+#: single_pages/dashboard/newsletter/templates/new_template.php:1654
+#: single_pages/dashboard/newsletter/templates/new_template.php:1802
+#: single_pages/dashboard/newsletter/templates/new_template.php:1950
+msgid "Font"
+msgstr "Schriften"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:1365
+#: single_pages/dashboard/newsletter/templates/new_template.php:1514
+#: single_pages/dashboard/newsletter/templates/new_template.php:1662
+#: single_pages/dashboard/newsletter/templates/new_template.php:1810
+#: single_pages/dashboard/newsletter/templates/new_template.php:1958
+msgid "Font family"
+msgstr "Schriften-Familie"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:1373
+#: single_pages/dashboard/newsletter/templates/new_template.php:1522
+#: single_pages/dashboard/newsletter/templates/new_template.php:1670
+#: single_pages/dashboard/newsletter/templates/new_template.php:1818
+#: single_pages/dashboard/newsletter/templates/new_template.php:1966
+msgid "Font size"
+msgstr "Schriftgrösse"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:1385
+#: single_pages/dashboard/newsletter/templates/new_template.php:1534
+#: single_pages/dashboard/newsletter/templates/new_template.php:1682
+#: single_pages/dashboard/newsletter/templates/new_template.php:1830
+#: single_pages/dashboard/newsletter/templates/new_template.php:1978
+msgid "Font weight"
+msgstr "Schriftstärke"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:2131
+msgid "Choose a Newsletter for preview"
+msgstr "Wählen Sie einen Newsletter für die Vorschau"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:2142
+msgid "Please save Template before preview"
+msgstr "Bitte speichern sie die Vorlage vor der Vorschau"
+
+#: single_pages/dashboard/newsletter/templates/new_template.php:2152
+msgid "Save Template"
+msgstr "Vorlage speichern"
+
+#: single_pages/dashboard/newsletter/templates/template_list.php:124
+msgid "Add a new Template by clicking here"
+msgstr "Hier klicken, um eine neue Vorlage zu erstellen"
+
+#: src/Concrete/Help/HelpServiceProvider.php:21
+#, php-format
+msgid "Adapt the <a href=\"%s\">Settings</a> to your needs."
+msgstr ""
+"Passen Sie die <a href=\"%s\">Einstellungen</a> an Ihre Bedürfnisse an."
+
+#: src/Concrete/Help/HelpServiceProvider.php:22
+#, php-format
+msgid ""
+"Design at least one <a href=\"%s\">Template</a> to send your newsletters "
+"with."
+msgstr ""
+"Gestalten Sie mindestens eine <a href=\"%s\">Vorlage</a>, um Ihren "
+"Newsletter zu verschicken."
+
+#: src/Concrete/Help/HelpServiceProvider.php:23
+#, php-format
+msgid ""
+"Create your <a href=\"%s\">Newsletters</a> and link them to your template(s)."
+msgstr ""
+"Erstellen Sie Ihre Newsletter <a href=\"%s\">Newsletter</a> und verknüpfen "
+"Sie sie mit Ihren Vorlagen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:24
+#, php-format
+msgid "Test the <a href=\"%s\">Email Settings</a>."
+msgstr "Testen Sie die <a href=\"%s\">E-Mail Einstellungen</a>."
+
+#: src/Concrete/Help/HelpServiceProvider.php:25
+#, php-format
+msgid ""
+"Finally, send your <a href=\"%s\">Newsletter</a> to registered users or any "
+"usergroup."
+msgstr ""
+"Zum Schluss verschicken Sie Ihren <a href=\"%s\">Newsletter</a> an "
+"registrierte Benutzer oder an irgend eine Benutzergruppe."
+
+#: src/Concrete/Help/HelpServiceProvider.php:29
+msgid "Newsletters settings:"
+msgstr "Newsletter Einstellungen:"
+
+#: src/Concrete/Help/HelpServiceProvider.php:30
+#, php-format
+msgid "If your provider dictates a limit, please send over \"%s\"."
+msgstr "Falls Ihr Provider eine Limite vorgibt, bitte über \"%s\" verschicken"
+
+#: src/Concrete/Help/HelpServiceProvider.php:38
+msgid "Edit an existing Template layout or create a new one."
+msgstr ""
+"Gestalten Sie eine bestehende Newsletter Vorlage oder erstellen Sie eine "
+"Neue."
+
+#: src/Concrete/Help/HelpServiceProvider.php:41
+msgid "Edit an existing Newsletter or create a new one."
+msgstr ""
+"Bearbeiten Sie einen bestehenden Newsletter oder erstellen Sie einen Neuen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:44
+msgid "Design the Template layout."
+msgstr "Gestalten Sie die Newsletter Vorlage."
+
+#: src/Concrete/Help/HelpServiceProvider.php:45
+msgid "The Template Name or handle is used to identify this Template"
+msgstr ""
+"Der Name oder Kennung wird zur Identifizierung dieser Vorlage verwendet"
+
+#: src/Concrete/Help/HelpServiceProvider.php:46
+msgid ""
+"On the Header Tab you may define a header logo (Optional).<br>Define "
+"background color, height, padding and margin of the Header, Body & Footer."
+"<br> Define the font, its size, color, padding & margin."
+msgstr ""
+"Im Kopf-Reiter können Sie ein Kopf-Bild anlegen (Optional).<br>Bestimmen Sie "
+"die Hintergrundfarbe, Höhe, Füllung und Marge des Kopfes, Bodys & "
+"Fussbereich.<br>Bestimmen Sie Schriftart, -Grösse, -Farbe, -Füllung & -Marge."
+
+#: src/Concrete/Help/HelpServiceProvider.php:47
+msgid ""
+"You may use two CSS units (Pixels or percent). See the Styling Help Dialog "
+"for more information. If a unit isn't recognised, the chosen value won't be "
+"taken. Default value will be taken instead."
+msgstr ""
+"Sie können folgende CSS-Einheiten (Pixels oder Prozent) benutzen. Lesen Sie "
+"den Hilfe-Abschnitt für mehr Informationen. Wenn eine Einheit nicht erkannt "
+"wird, wird der Standardwert verwendet."
+
+#: src/Concrete/Help/HelpServiceProvider.php:50
+msgid "Create your Newsletters here."
+msgstr "Erstellen Sie hier Ihre Newsletter."
+
+#: src/Concrete/Help/HelpServiceProvider.php:51
+msgid "The Newsletter Name or handle is used to identify this Newsletter"
+msgstr ""
+"Der Name oder Kennung wird zur Identifizierung dieses Newsletters verwendet"
+
+#: src/Concrete/Help/HelpServiceProvider.php:52
+msgid "Set the Subject of this Newsletter"
+msgstr "Bestimmen Sie den Betreff des Newsletters"
+
+#: src/Concrete/Help/HelpServiceProvider.php:53
+msgid "Choose a template to use"
+msgstr "Wählen Sie die zu verwendende Vorlage"
+
+#: src/Concrete/Help/HelpServiceProvider.php:54
+msgid "Write header, body & footer texts."
+msgstr "Standard Kopf-, Inhalt-, und Fusstext setzen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:55
+msgid "Add files as attachments."
+msgstr "Dateien als Anhänge anfügen."
+
+#: src/Concrete/Help/HelpServiceProvider.php:58
+#, php-format
+msgid ""
+"See all Newsletters already saved and sent or not yet sent. (Depending if "
+"sending by \"%s\" or directly)"
+msgstr ""
+"Alle Newsletter, die bereits verschickt oder nicht verschickt wurden, "
+"anzeigen. (Abhänging davon, ob über \"%s\" oder direkt verschickt)"
+
+#: src/Concrete/Help/HelpServiceProvider.php:61
+#, php-format
+msgid ""
+"Test the global email settings. Click on 'Test Email Settings'. The settings "
+"for sending emails may be found <a href=\"%s\">here</a>."
+msgstr ""
+"Testen Sie die globalen E-Mail Einstellungen. Klicken Sie auf 'E-Mail "
+"Einstellungen'. Die Einstellungen für den E-Mail Versand finden Sie <a href="
+"\"%s\">hier</a>."
+
+#~ msgid "Header text"
+#~ msgstr "Kopf-Text"
+
+#~ msgid "Footer text"
+#~ msgstr "Fuss-Text"
+
+#~ msgid "Newsletter History"
+#~ msgstr "Newsletter Verlauf"
+
+#~ msgid ""
+#~ "Test the sitewide email settings. Click on 'Test Email Settings'. The "
+#~ "settings for sending emails may be found <a href=\"%s\">here</a>."
+#~ msgstr ""
+#~ "Testen Sie die E-Mail Einstellungen der Website. Klicken Sie auf 'E-Mail "
+#~ "Einstellungen testen'. Die E-Mail Einstellungen finden Sie <a href=\"%s"
+#~ "\">hier</a>."
+
+#~ msgid "No users in this group"
+#~ msgstr "Keine Benutzer in dieser Gruppe"
+
+#~ msgid "No users in group"
+#~ msgstr "Keine Benutzer in dieser Gruppe"
+
+#~ msgid "Total users in group"
+#~ msgstr "Total Benutzer in dieser Gruppe"
+
+#~ msgid "Go"
+#~ msgstr "Los"
+
+#~ msgid "Header"
+#~ msgstr "Kopf"
+
+#~ msgid "Body"
+#~ msgstr "Body"
+
+#~ msgid "Footer"
+#~ msgstr "Fuss"
+
+#~ msgid "Titles"
+#~ msgstr "Überschriften"
+
+#~ msgid "Title %s"
+#~ msgstr "Überschrift %s"
+
+#~ msgid "Enter an email address first"
+#~ msgstr "Geben Sie zuerst eine E-Mail Adresse ein"
+
+#~ msgid "Enter a valid email address first"
+#~ msgstr "Geben Sie zuerst eine gültige E-Mail Adresse ein"
+
+#~ msgid "Preview Template"
+#~ msgstr "Vorlage Vorschau"
+
+#~ msgid "Please save the Template first"
+#~ msgstr "Bitte speichern Sie zuerst die Vorlage"
+
+#~ msgid "Header image position"
+#~ msgstr "Kopf-Bild Position"
+
+#~ msgid "Content text"
+#~ msgstr "Inhalt-Text"
+
+#~ msgid "Preview Newsletter"
+#~ msgstr "Newsletter Vorschau"
+
+#~ msgid ""
+#~ "An error was found while sending a test email. Please adapt the sitewide "
+#~ "email settings at <a href=\"%s\">%s</a> before sending newsletters."
+#~ msgstr ""
+#~ "Beim Senden der Testnachricht ist ein Fehler aufgetreten. Bitte "
+#~ "überprüfen Sie die Einstellungen <a href=\"%s\">%s</a> bevor Sie "
+#~ "Newsletter verschicken. "
+
+#~ msgid "This Newsletter has already been sent or saved as"
+#~ msgstr ""
+#~ "Dieser Newsletter ist bereits verschickt worden oder gespeichert als"
+
+#~ msgid "Automated Job"
+#~ msgstr "Automatisierter Auftrag"
+
+#~ msgid "Please choose a Template to use"
+#~ msgstr "Wählen Sie die zu verwendende Vorlage"
+
+#~ msgid "Emailing name"
+#~ msgstr "Versand-Name"
+
+#~ msgid "This Template is being sent at the moment. You can't edit."
+#~ msgstr ""
+#~ "Diese Vorlage wird gerade verschickt. Sie können sie nicht bearbeiten."
+
+#~ msgid "This Newsletter is being sent at the moment. You can't edit."
+#~ msgstr ""
+#~ "Dieser Newsletter wird gerade verschickt. Sie können Ihn nicht bearbeiten."
+
+#~ msgid "No selectable Group present. Please create a user group first."
+#~ msgstr ""
+#~ "Keine wählbare Gruppe vorhanden. Bitte erstellen Sie  zuerst eine "
+#~ "Benutzergruppe."
+
+#~ msgid "Give this Emailing a name"
+#~ msgstr "Geben Sie dem Versand einen Namen"
+
+#~ msgid "Body (container)"
+#~ msgstr "Body (container)"
+
+#~ msgid "Body background color"
+#~ msgstr "Body Hintergrundfarbe"
+
+#~ msgid "Title %s color"
+#~ msgstr "Überschrift %s Farbe"
+
+#~ msgid "Title %s Font size"
+#~ msgstr "Überschrift %s Schriftgrösse"
+
+#~ msgid "The Header logo (Optional)"
+#~ msgstr "Kopf-Bild (Optional)"
+
+#~ msgid "Style the header section here"
+#~ msgstr "Gestalten Sie den Kopf-Bereich hier"
+
+#~ msgid "Style the body section here"
+#~ msgstr "Gestalten Sie den Body-Bereich hier"
+
+#~ msgid "Style the footer section here"
+#~ msgstr "Gestalten Sie den Fuss-Bereich hier"
+
+#~ msgid "Style all titles here"
+#~ msgstr "Gestalten Sie alle Überschriften hier"
+
+#~ msgid "Save"
+#~ msgstr "Speichern"
+
+#~ msgid "Save the Template."
+#~ msgstr "Vorlage speichern."
+
+#~ msgid "Give the Newsletter a name"
+#~ msgstr "Geben Sie dem Newsletter einen Namen"
+
+#~ msgid "Attach file(s)"
+#~ msgstr "Datei(en) anhängen"
+
+#~ msgid "The emails subject"
+#~ msgstr "Der E-Mail Betreff"
+
+#~ msgid "The mail Template being used"
+#~ msgstr "Die verwendete Vorlage"
+
+#~ msgid "The header of the %s."
+#~ msgstr "Der Kopfbereich des %s."
+
+#~ msgid "Content text."
+#~ msgstr "Inhalt-Text"
+
+#~ msgid "The content of the %s."
+#~ msgstr "Inhalt des %s."
+
+#~ msgid "The footer of the %s."
+#~ msgstr "Der Fussbereich des %s."
+
+#~ msgid "Add attachments to the %s (Optional)"
+#~ msgstr "Anhänge zum %s hinzufügen (Optional)"
+
+#~ msgid "Save the Newsletter."
+#~ msgstr "Newsletter speichern."
+
+#~ msgid "No Templates yet"
+#~ msgstr "Keine Vorlagen vorhanden"
+
+#~ msgid "Display"
+#~ msgstr "Zeige"
+
+#~ msgid ""
+#~ "An error was found while sending a test email. Please adapt the sitewide "
+#~ "email settings at <a href=\"%s\">%s</a> before sending newsletters. See "
+#~ "the error message <a id=\"mail_error_message\" href=\"#\">here</a>."
+#~ msgstr ""
+#~ "Beim Senden der Testnachricht ist ein Fehler aufgetreten. Bitte "
+#~ "überprüfen Sie die Einstellungen <a href=\"%s\">%s</a> bevor Sie "
+#~ "Newsletter verschicken. <a id=\"mail_error_message\" href=\"#\">Hier</a> "
+#~ "können Sie die Fehlermeldung einsehen."
+
+#~ msgid "Block"
+#~ msgstr "Block"
+
+#~ msgid "Inline Block"
+#~ msgstr "Inline Block"
+
+#~ msgid "Inline"
+#~ msgstr "Inline"
+
+#~ msgid "Don't display"
+#~ msgstr "Nicht zeigen"
+
+#~ msgid "Help"
+#~ msgstr "Hilfe"
+
+#~ msgid "Please adapt the %s before sending %ss."
+#~ msgstr "Bitte passen Sie zuerst die %s an, bevor Sie %s verschicken."
+
+#~ msgid "Choose a Template to preview with"
+#~ msgstr "Wählen Sie eine Vorlage für die Vorschau"
+
+#~ msgid "Add Newsletter Template"
+#~ msgstr "Newsletter Vorlage hinzufügen"
+
+#~ msgid "Newsletter Template List"
+#~ msgstr "Newsletter Vorlage Liste"
+
+#~ msgid "Newsletter Templates"
+#~ msgstr "Newsletter Vorlagen"
+
+#~ msgid "Edit Newsletter Template"
+#~ msgstr "Newsletter Vorlage bearbeiten"
+
+#~ msgid "The newsletter template '%s' has been saved"
+#~ msgstr "Die Vorlage '%s' wurde gespeichert"
+
+#~ msgid "Adds a Newsletter feature to the Dashboard."
+#~ msgstr "Fügt ein Newsletter-Plugin zur Verwaltung hinzu"
+
+#~ msgid ""
+#~ "Give the newsletter a name to identfiy it. The name can only be used once."
+#~ msgstr ""
+#~ "Geben Sie dem Newsletter einen Namen zur Identifizierung. Der Name kann "
+#~ "nur einmal verwendet werden."
+
+#~ msgid ""
+#~ "Choose the desired usergroup. If there are no users in the selected "
+#~ "group, <a href=\"%s\">create a user group</a> first and assign users to "
+#~ "it."
+#~ msgstr ""
+#~ "Wählen Sie die gewünschte Benutzergruppe. Wenn keine Benutzer in der "
+#~ "gewählten Gruppe sind, <a href=\"%s\">erstellen Sie zuerst eine "
+#~ "Benutzergruppe</a> und weisen Sie Benutzer dieser Gruppe zu."
+
+#~ msgid "Then, set header text, content and footer text."
+#~ msgstr "Dann setzen Sie Kopf-, Inhalt-, und Fusstext."
+
+#~ msgid "Attach files to the newsletter."
+#~ msgstr "Dateien an den Newsletter anhängen."
+
+#~ msgid "Choose files to attach. (Optional)"
+#~ msgstr "Wählen Sie anzuhängende Dateien. (Optional)"
+
+#~ msgid ""
+#~ "Select if a confirmation mail will be sent to the address provided here."
+#~ msgstr ""
+#~ "Bestimmen Sie , ob eine Bestätigungs-E-Mail an die hier angegebene "
+#~ "Adresse gesendet wird."
+
+#~ msgid "Select visible user attributes in the recipient list."
+#~ msgstr "Wählen Sie sichtbare Benutzer-Attribute in der Empfängerliste."
+
+#~ msgid "Define default header, content and footer text."
+#~ msgstr "Standard Kopf-, Inhalt-, und Fusstext setzen."
+
+#~ msgid "Choose the header logo."
+#~ msgstr "Wählen Sie ein Kopf-Bild."
+
+#~ msgid "The maximum number of attachments possible"
+#~ msgstr "Die maximale Anzahl von Anhängen"
+
+#~ msgctxt "Title %s color"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Title %s Font weight"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Title %s Font family"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Title %s Font size"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Title %s color"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Title %s Font weight"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Title %s Font family"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Title %s Font size"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Title %s color"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Title %s Font weight"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Title %s Font family"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Title %s Font size"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Title %s color"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Title %s Font weight"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Title %s Font family"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Title %s Font size"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Title %s color"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Title %s Font weight"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Title %s Font family"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Title %s Font size"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Header %s color"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Header %s Font weight"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Header %s Font family"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Header %s Font size"
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgctxt "Header %s color"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Header %s Font weight"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Header %s Font family"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Header %s Font size"
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgctxt "Header %s color"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Header %s Font weight"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Header %s Font family"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Header %s Font size"
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgctxt "Header %s color"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Header %s Font weight"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Header %s Font family"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Header %s Font size"
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgctxt "Header %s color"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Header %s Font weight"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Header %s Font family"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "Header %s Font size"
+#~ msgid "5"
+#~ msgstr "5"
+
+#~ msgctxt "<a href=\"%s\">Read more</a>"
+#~ msgid "https://en.wikipedia.org/wiki/Pixel"
+#~ msgstr "https://de.wikipedia.org/wiki/Pixel"
+
+#~ msgctxt "<a href=\"%s\">Read more</a>"
+#~ msgid "https://developer.mozilla.org/en/docs/Web/CSS/percentage"
+#~ msgstr "https://developer.mozilla.org/de/docs/Web/CSS/percentage"
+
+#~ msgid "Padding top"
+#~ msgstr "Padding oben"
+
+#~ msgid "Padding left"
+#~ msgstr "Padding links"
+
+#~ msgid "Padding right"
+#~ msgstr "Padding rechts"
+
+#~ msgid "Padding bottom"
+#~ msgstr "Padding unten"
+
+#~ msgid "Margin top"
+#~ msgstr "Oberer Rand"
+
+#~ msgid "Margin left"
+#~ msgstr "Linker Rand"
+
+#~ msgid "Margin right"
+#~ msgstr "Rechter Rand"
+
+#~ msgid "Margin bottom"
+#~ msgstr "Unterer Rand"
+
+#~ msgid "Mail template"
+#~ msgstr "E-Mail Vorlage"
+
+#~ msgid "Preview template"
+#~ msgstr "Vorlage Vorschau"
+
+#~ msgid "Header 1 color"
+#~ msgstr "Farbe Überschrift 1"
+
+#~ msgid "Header 2"
+#~ msgstr "Überschrift 2"
+
+#~ msgid "Header 2 color"
+#~ msgstr "Farbe Überschrift 2"
+
+#, fuzzy
+#~ msgid "Header 2 Font weight"
+#~ msgstr "Kopf-Höhe"
+
+#~ msgid "Header 2 Font family"
+#~ msgstr "Überschrift 2 Schriften-Familie"
+
+#~ msgid "Header 2 Font size"
+#~ msgstr "Überschrift 2 Schriftstärke"
+
+#, fuzzy
+#~ msgid "Header 3"
+#~ msgstr "Kopf"
+
+#, fuzzy
+#~ msgid "Header 3 color"
+#~ msgstr "Kopf-Bild"
+
+#, fuzzy
+#~ msgid "Header 3 Font weight"
+#~ msgstr "Kopf-Höhe"
+
+#, fuzzy
+#~ msgid "Header 3 Font family"
+#~ msgstr "Schriften-Familie"
+
+#, fuzzy
+#~ msgid "Header 3 Font size"
+#~ msgstr "Kopf-Text"
+
+#, fuzzy
+#~ msgid "Header 4"
+#~ msgstr "Kopf"
+
+#, fuzzy
+#~ msgid "Header 4 color"
+#~ msgstr "Kopf-Bild"
+
+#, fuzzy
+#~ msgid "Header 4 Font weight"
+#~ msgstr "Kopf-Höhe"
+
+#, fuzzy
+#~ msgid "Header 4 Font family"
+#~ msgstr "Schriften-Familie"
+
+#, fuzzy
+#~ msgid "Header 4 Font size"
+#~ msgstr "Kopf-Text"
+
+#, fuzzy
+#~ msgid "Header 5"
+#~ msgstr "Kopf"
+
+#, fuzzy
+#~ msgid "Header 5 color"
+#~ msgstr "Kopf-Bild"
+
+#, fuzzy
+#~ msgid "Header 5 Font weight"
+#~ msgstr "Kopf-Höhe"
+
+#, fuzzy
+#~ msgid "Header 5 Font family"
+#~ msgstr "Schriften-Familie"
+
+#, fuzzy
+#~ msgid "Header 5 Font size"
+#~ msgstr "Kopf-Text"
+
+#, fuzzy
+#~ msgid "template"
+#~ msgstr "E-Mail Vorlage"
+
+#~ msgid "Let's go!"
+#~ msgstr "Los gehts!"
+
+#~ msgid "Visible user attributes in recipient list"
+#~ msgstr "Sichtbare Benutzer-Attribute in der Empfängerliste"
+
+#~ msgid "No user attributes defined"
+#~ msgstr "Keine Benutzerattribute definiert"
+
+#~ msgid "Width of header logo"
+#~ msgstr "Kopf-Bild"
+
+#~ msgid "Height of header logo"
+#~ msgstr "Kopf-Bild Höhe"
+
+#~ msgid "Header background color"
+#~ msgstr "Kopf Hintergrundfarbe"
+
+#~ msgid "Footer background color"
+#~ msgstr "Fuss Hintergrundfarbe"
+
+#~ msgid "to"
+#~ msgstr "an"
+
+#~ msgid ""
+#~ "The field \"%s\" is required. Please adapt the <a href=\\\"%s\\"
+#~ "\">settings</a> first."
+#~ msgstr ""
+#~ "Das Feld \"%s\" ist erforderlich. Bitte passen Sie zuerst die <a href=\"%s"
+#~ "\">Einstellungen</a> an."
+
+#~ msgid ""
+#~ "The field \"%s\" is required. Please adapt the <a href=\"%s\">settings</"
+#~ "a> first"
+#~ msgstr ""
+#~ "Das Feld \"%s\" ist erforderlich. Bitte passen Sie zuerst die <a href=\"%s"
+#~ "\">Einstellungen</a> an."
+
+#~ msgid "Default mail and footer text."
+#~ msgstr "Standard E-Mail Fuss-Text"
+
+#~ msgid "Choose the desired usergroup."
+#~ msgstr "Benutzergruppe auswählen."
+
+#~ msgid "Email text"
+#~ msgstr "E-Mail-Text"
+
+#~ msgid "Newsletter '%s' from the"
+#~ msgstr "Newsletter '%s' vom"
+
+#~ msgid "The field \"%s\" is required."
+#~ msgstr "Das Feld \"%s\" ist erforderlich"
+
+#~ msgid "This is a test message."
+#~ msgstr "Das ist eine Test-Nachricht."
+
+#, fuzzy
+#~ msgid "Footer text color"
+#~ msgstr "Fuss-Text"
+
+#, fuzzy
+#~ msgid "Finally send the newsletter."
+#~ msgstr "Inhalt des Newsletters"
+
+#~ msgid "Image Caption"
+#~ msgstr "Bildlegende"
+
+#~ msgid "Primary Button"
+#~ msgstr "Haupt-Button"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Done!"
+#~ msgstr "Erledigt!"
+
+#~ msgid "Address of welcome"
+#~ msgstr "Begrüssung"
+
+#~ msgid "Total records"
+#~ msgstr "Total Einträge"
+
+#~ msgid "sent"
+#~ msgstr "Gesendet"
+
+#~ msgid "at the"
+#~ msgstr "am"
+
+#~ msgid "not sent"
+#~ msgstr "Nicht gesendet"
+
+#~ msgid "Send over \"%s\" or directly"
+#~ msgstr "Über \"%s\" oder direkt verschicken"
+
+#~ msgid ""
+#~ "Number of emails allowed to be sent in a certain time. Please ask your "
+#~ "provider."
+#~ msgstr ""
+#~ "Anzahl erlaubter E-Mails in einer gewissen Zeitspanne. Bitte fragen Sie "
+#~ "Ihren Provider."
+
+#~ msgid "Subscription Prices"
+#~ msgstr "Abo-Preise"
+
+#~ msgid "Newsletter verschicken"
+#~ msgstr "Newsletter verschicken"
+
+#~ msgid "Verschickt Newsletter gemäss Einstellungen"
+#~ msgstr "Verschickt Newsletter gemäss Einstellungen"

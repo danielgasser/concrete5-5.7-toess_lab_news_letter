@@ -1,0 +1,62 @@
+2.2.1 - 10/16/2017 - version 8.3.0 ready
+2.2.0 - 10/16/2017 - Subscriptions optimized
+2.1.8 - 10/09/2017 - Bug fix in PackageSetup
+2.1.7 - 10/05/2017 - Some mailing improvements
+2.1.6 - 10/05/2017 - Some JS optimizations
+2.1.5 - 10/04/2017 - Creation of directory simplified
+2.1.4 - 08/21/2017 - Bug fix in FirstTimeSubscriptions
+2.1.3 - 08/21/2017 - Bug fix II in file path
+2.1.2 - 08/21/2017 - Bug fix in file path
+2.1.1 - 08/20/2017 - Bug fix in Upgrade function
+2.1.0 - 08/16/2017 - Major upgrade: New Dashboard Page: Subscriptions;
+                     New Block: Unsubscribe from Newsletter;
+                     In Newsletter: Insert an Unsubscribe link to the page where the unsubscribe block is placed;
+                     Please read the docs for further details;
+2.0.4 - 04/28/2017 - Bug fix Mail/Service
+2.0.3 - 04/28/2017 - Bug fix Select-Attribute
+2.0.2 - 04/28/2017 - Bug fix user groups
+2.0.1 - 04/21/2017 - Bug fix with attachment
+2.0     - 03/28/2017 - Upgrade for Version 8.x AND version 5.7.5.12: Only 1 version for both concrete5 systems
+                       Fixed some redactor bugs
+                       Added e-mail validation in the recipient list
+1.9     - 03/28/2017 - Upgrade for Version 8.x only: Fixed redactor bug
+1.8     - 01/31/2017 - Userinfo object check when sending mailings
+1.5/1.6   - 01/06/2017 - Added version check. This version is not compatible with version 8.x/5.7.x
+1.5/1.6   - 01/06/2017 - Added version check. This version is not compatible with version 8.x/5.7.x
+1.4   - 12/01/2016 - Optimize Code for large user amount
+1.3   - 11/30/2016 - Error fixed in Database
+1.2   - 11/29/2016 - Added feature to see Newsletter in Browser
+1.1   - 10/20/2016 - IMPORTANT UPDATE!
+                     PLEASE DO NOT IGNORE THIS UPDATE!
+
+                     Fixed error when sending mailings over Automated Jobs.
+                     Minor change in toesslab_global.js: The cronjob command display was updated as text instead of html
+                     Error when sending a Test Message on the Send Mailing Page: pathname was send_newsletter instead of send_mailing, so the input field "Choose a Newsletter" was never checked, so always false. The test message never went out.
+                     The Attachments weren't cleared out on the Send Mailing Page when choosing no Newsletter
+                     Attachments weren't sent with the Test Message
+                     Removed JS console.log()
+                     Keep User Group entries on the Send Mailing Page checked/unchecked on sort
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1.0   - 06/30/2016 - Release Version
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0.9.5 - 06/24/2016 - Added min value to number inputs, on client/server side
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0.9.4 - 06/20/2016 - Changed static call of private methods
+                     Saves test email address into config file
+                     Merged js files into one
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0.9.3 - 06/16/2016 - Moved installation of configs, Templates, User attributes to /packages/toess_lab_news_letter/src/Concrete/Setup/PackageSetup.php
+                     Grouped different assets into a single group
+                     Implemented QueueableJob instead of simple Job
+                     Removed the upgrade method
+                     Changed some array short forms (PHP 5.4) to be 5.3 compatible
+                     Replaced deprecated methods like Loader::db()
+                     Deleted unused Use statements
+                     Added Use statements for multiple Class calls
+                     Deleted unnecessary font-awesome css
+                     Changed some Texts
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0.9.2 - 06/01/2016 - Replaced unlink($_SERVER['DOCUMENT_ROOT'] . '/' . DIRNAME_APPLICATION . '/config/generated_overrides/toess_lab_news_letter.php')'
+                     with $fs = new \Illuminate\Filesystem\Filesystem(); $fs-&gt;delete(DIR_CONFIG_SITE . '/generated_overrides/toess_lab_news_letter.php');
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0.9.0 - 06/01/2016 - Initial development release
