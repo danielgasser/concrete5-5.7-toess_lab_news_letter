@@ -44,7 +44,7 @@ class Controller extends Package
      */
     protected $pkgHandle = 'toess_lab_news_letter';
     protected $appVersionRequired = '5.7.5.13';
-    protected $pkgVersion = '2.2.1';
+    protected $pkgVersion = '2.2.2';
     protected $pkgAutoloaderMapCoreExtensions = true;
 
     protected $headImage = 'toesslab_logo_270height.png';

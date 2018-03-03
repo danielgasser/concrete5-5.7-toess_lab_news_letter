@@ -276,6 +276,10 @@
         var id = $(this).attr('id');
         $('#' + id + '_text').toggle();
     });
+    $(document).on('click', '#GoTo_Send_new_newsletter', function (e) {
+        e.preventDefault();
+        window.location.href = window.url_send_mailing;
+    });
     $(document).on('submit', '#newsletter_form', function (e) {
         e.preventDefault();
         var emails = [];

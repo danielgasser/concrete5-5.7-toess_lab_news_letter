@@ -250,3 +250,6 @@ ol[id$="sub_select"] {
 [id*="_insert"] {
   cursor: pointer;
 }
+#GoTo_Send_new_newsletter {
+  margin-left: 2em;
+}

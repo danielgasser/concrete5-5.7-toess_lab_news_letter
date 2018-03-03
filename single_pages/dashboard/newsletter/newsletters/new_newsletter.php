@@ -57,7 +57,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'edit') === false) {
 if(strpos($_SERVER['REQUEST_URI'], 'edit') !== false) {
     $header_tabs = \Concrete\Package\ToessLabNewsLetter\Controller\SinglePage\Dashboard\Newsletter::setSelectedTabs($header_tabs);
 }
-
+$disabled = '';
 ?>
 <script type="text/javascript">
     var CCM_EDITOR_SECURITY_TOKEN = "<?php       print \Core::make('helper/validation/token')->generate('save_newsletter')?>",
@@ -70,6 +70,7 @@ if(strpos($_SERVER['REQUEST_URI'], 'edit') !== false) {
         get_template = '<?php       print $controller->action('get_template')?>',
         input_contents = {},
         redactorInstances = [],
+        url_send_mailing = '<?php echo \URL::TO('/dashboard/newsletter/send_mailing') ?>',
         empty_newsletter_title = '<?php       print t('Warning') ?>',
         mail_success_title = '<?php       print t('Success') ?>',
         empty_newsletter_yes = '<?php       print t('Save Newsletter anyway') ?>',
@@ -599,6 +600,14 @@ if(strpos($_SERVER['REQUEST_URI'], 'edit') !== false) {
             </div>
             <div class="ccm-dashboard-form-actions-wrapper">
                 <div class="ccm-dashboard-form-actions">
+                    <?php
+                    if ($newsletter == NULL) {
+                        $disabled = ' disabled="disabled"';
+                    }
+                    ?>
+
+                    <button<?php echo $disabled?> id="GoTo_Send_new_newsletter" name="GoTo_Send_new_newsletter"
+                            class="pull-right btn btn-primary"><?php echo t('Send Newsletter Now') ?></button>
                     <button id="Send_new_newsletter" name="Send_new_newsletter" class="pull-right btn btn-primary" type="submit" ><?php       echo t('Save Newsletter')?></button>
                 </div>
             </div>
