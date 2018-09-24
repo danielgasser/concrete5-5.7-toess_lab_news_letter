@@ -48,12 +48,15 @@ class Subscriptions extends DashboardPageController {
         $db = $this->app->make('database');
         $userInfo = $this->app->make('Concrete\Core\User\UserInfo');
         $emailIDs = json_decode(\Core::make('helper/security')->sanitizeString($this->post('emailIDs')));
+        if (!is_array($emailIDs)) {
+            $emailIDs = [''];
+        }
         $subscribe = json_decode(\Core::make('helper/security')->sanitizeString($this->post('sub')));
         $emailPlaceHolders = implode(',', array_fill(0, count($emailIDs), '?'));
         $sth = $db->prepare("select uID, uEmail from Users where uEmail in ($emailPlaceHolders)");
         $sth->execute($emailIDs);
         $res = $sth->fetchAll(\PDO::FETCH_ASSOC);
-        if (sizeof($res) == 0) {
+        if (count($res) == 0) {
             $li = '<ul>';
             foreach ($emailIDs as $e) {
                 $li .= '<li>' . $e . '</li>';
@@ -61,7 +64,7 @@ class Subscriptions extends DashboardPageController {
             $li .= '</ul>';
             $msgSingle = t('No member with this email address found. Please register the member first.');
             $msgMulti = t('No members with these email address found. Please register those members first.');
-            if (sizeof($emailIDs) > 1) {
+            if (count($emailIDs) > 1) {
                 echo json_encode(array('error' => $msgMulti . $li));
                 exit;
             }

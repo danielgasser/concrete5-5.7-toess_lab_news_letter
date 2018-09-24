@@ -230,7 +230,7 @@ $test_email = \Config::get('toess_lab_news_letter.mailing.settings.test_email_ad
                                 <tbody id="userList">
 
                                 <?php
-                                if (sizeof($totalRecords) > 0){
+                                if (count([$totalRecords]) > 0){
                                     foreach($users as $u) { ?>
                                     <tr>
                                         <td>

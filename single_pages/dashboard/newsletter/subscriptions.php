@@ -43,16 +43,17 @@ $form = \Core::make('helper/form');
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                    <h4><?php echo t('Subscripted') ?>: <span id="sub_fillListLength"><?php echo sizeof($subscriptions['sub']) ?></span></h4>
+                    <h4><?php echo t('Subscripted') ?>: <span id="sub_fillListLength"><?php echo count($subscriptions['sub']) ?></span></h4>
                     <div>
                         <button id="sub_select_move" disabled="disabled" class="btn btn-danger"><?php echo t('Move selected to \'unsubscripted\'')?>&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
                         <h5><?php echo t('selected') ?>: <span id="sub_selected">0</span></h5>
                         <input type="text" class="form-control" id="search_sub" placeholder="<?php echo t('Search Subscripted')?>">
                         <hr>
                         <button id="sub_select_unselect" disabled="disabled" class="btn btn-default"><?php echo t('Unselect selected')?></button>
+                        <button id="sub_select_select" class="btn btn-default"><?php echo t('Select all')?></button>
                         <ol id="sub_select" class="connected">
                             <?php
-                            if (sizeof($subscriptions['sub']) > 0) {
+                            if (count($subscriptions['sub']) > 0) {
                                 foreach ($subscriptions['sub'] as $s) {
                                     ?>
                                     <li id="<?php echo $s['uID'] ?>"><?php

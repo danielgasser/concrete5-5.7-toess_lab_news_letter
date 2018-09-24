@@ -1,4 +1,27 @@
 /*jshint globalstrict: true*/
+/**
+ * Created by https://toesslab.ch/
+ * User: Daenu
+ * Date: 11/18/15
+ * Time: 1:26 AM
+ * Project: toesslab - Newsletter
+ * Description: Send Newsletters to registered users
+ * File: /packages/toess_lab_news_letter/js/toesslab.js
+ */
+
+/**
+ * functions
+ */
+
+/**
+ * validates e-mail address
+ *
+ * @param test_email
+ * @param msg_box_id
+ * @param msg_id
+ * @param msg
+ * @returns {boolean}
+ */
 (function ($) {
     "use strict";
         /**
@@ -48,10 +71,11 @@
                 str += '<input type="hidden" id="uLastName_' + n.uLastName + '" name="uLastName[]" value="' + n.uLastName + '">';
                 str += '</td>';
                 str += '<td class="col-lg-1 col-md-1 col-sm-1 col-xs-12"' + error_color + '>' + n.uName + '</td>';
+                str += '<td class="col-lg-1 col-md-1 col-sm-1 col-xs-12"' + error_color + '>' + n.uReceiveNewsletter + '</td>';
                 str += '<td class="col-lg-1 col-md-1 col-sm-1 col-xs-12"' + error_color + '>' + n.uAddress + '</td>';
                 str += '<td class="col-lg-3 col-md-3 col-sm-3 col-xs-12"' + error_color + '>' + n.uFirstName + '</td>';
                 str += '<td class="col-lg-3 col-md-3 col-sm-3 col-xs-12"' + error_color + '>' + n.uLastName + '</td>';
-                str += '<td class="col-lg-4 col-md-4 col-sm-4 col-xs-12"' + error_color + '>' + mail_text + '</td>';
+                str += '<td class="col-lg-3 col-md-3 col-sm-3 col-xs-12"' + error_color + '>' + mail_text + '</td>';
                 str += '</tr>';
                 el.append(str);
             });
@@ -59,7 +83,8 @@
         /**
          * Shows attachments being sent
          *
-         * @param nid
+         * @param data
+         * @param el
          */
         showAttachments = function (nid) {
             $.ajax({
@@ -89,7 +114,7 @@
                 user_list_body = $('#userList'),
                 no_group = $('#userRecords'),
                 prop_object = $('[data-prop="' + prop + '"]'),
-                cm = (window.chosen_emails === 'null' || window.chosen_emails === undefined) ? [] : $.parseJSON(window.chosen_emails);
+                cm = (window.chosen_emails === 'null') ? [] : $.parseJSON(window.chosen_emails);
             $.each($('input[name^="chooseGroup"]'), function (i, n) {
                 if (n.checked) {
                     user_group.push(n.value);
@@ -124,13 +149,13 @@
                 success: function (data) {
                     jQuery.fn.dialog.hideLoader();
                     if (data === 'null' || data === undefined) {
-                        no_group.html('<li><span id="selectedText">' + window.no_users_selected + '</span><span id="selectedRecords"></span></li>');
+                        no_group.html('<li>' + window.no_users_selected + '</li>');
                         user_list_body.html('');
                         return false;
                     }
                     user_list = $.parseJSON(data);
                     if (user_list.hasOwnProperty('toesslab_receive_newsletter')) {
-                        no_group.html('<li><span id="selectedText">' + window.no_users_attribute_newsletter + '</span><span id="selectedRecords"></span></li>');
+                        no_group.html('<li>' + window.no_users_attribute_newsletter + '</li>');
                         user_list_body.html('');
                         return false;
                     }
@@ -220,7 +245,7 @@
                 tags = $(content).find('[class="' + value[1] + '"]');
                 $.each(tags, function (i, n) {
                     new_content = content.replace(n.outerHTML, '');
-                });
+                })
                 r.setData(new_content);
             }
         },
@@ -248,10 +273,6 @@
         } else {
             redactorInstances = window.redactorInstances;
         }
-        if (window.location.href.indexOf('send_mailing') > -1) {
-            getRecipients('uName', 'asc');
-        }
-
         $('#ccm-tab-content-groups').removeClass('wait');
         var prop = $('[name="isSorted"]').val(),
         by = $('[name="isSortedBy"]').val();
@@ -264,6 +285,7 @@
             showAttachments($('[name="newsletter"]').val());
             getRecipients(prop, by);
         }
+       // $('[name="newsletter"]').trigger('change');
         $.each($('[type="text"], [type="number"]'), function (i, n) {
             if ($(n).attr('id') !== undefined) {
                 textInputs.push($(n).attr('id'));
@@ -271,15 +293,6 @@
         });
     });
 
-    $(document).on('click', '[id*="info_user_attributes_insert"], [id*="info_social_links_insert"], [id*="info_unsubscribe_link_insert"]', function (e) {
-        e.preventDefault();
-        var id = $(this).attr('id');
-        $('#' + id + '_text').toggle();
-    });
-    $(document).on('click', '#GoTo_Send_new_newsletter', function (e) {
-        e.preventDefault();
-        window.location.href = window.url_send_mailing;
-    });
     $(document).on('submit', '#newsletter_form', function (e) {
         e.preventDefault();
         var emails = [];
@@ -301,7 +314,6 @@
             return false;
         }
     });
-
     /**
      * Changes the preview dialog content
      */
@@ -455,15 +467,8 @@
     });
 
     /**
-     * change attachment size display
+     * Changes total of attachment size
      */
-    $(document).on('change keyup blur', '#files_num, #file_size', function () {
-        var filesnum = parseInt($('#files_num').val(), 10),
-            filesize = parseFloat($('#file_size').val()),
-            sum = filesnum * filesize;
-        $('#all_attachment').html(filesnum);
-        $('#all_attachment_size').html(Math.round(sum * 100) / 100);
-    });
     $(document).on('change', '[id^="nl_template"]', function () {
         if ($(this).attr('id') === 'nl_template') {
             $('#nl_template_preview').val($(this).val());

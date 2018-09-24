@@ -433,11 +433,13 @@ $disabled = '';
                                 <div class="flow-it">
                                     <?php
                                     $body_social_chosen = ($body_social_links_chosen == null) ? array() : $body_social_links_chosen;
-                                    foreach($social_links as $key => $sl) {
-                                        ?>
-                                        <input type="checkbox" id="body_social_links_<?php       print $sl['handle'] ?>" name="body_social_links[]" data-label-text="<?php       print str_replace('"', '\'', $sl['icon']) . ' ' . $sl['name']?>" data-size="normal" value="<?php       print str_replace('"', '\'', $sl['icon']) . '|' . $sl['handle'] . '|' . $sl['name'] . '|' . $sl['link']?>" <?php       (in_array($sl['handle'], $body_social_chosen)) ? print 'checked="checked"' : ''?>>
-                                        <?php
-                                        print '<br>';
+                                    if (!is_null($social_links) && count($social_links) > 0) {
+                                        foreach($social_links as $key => $sl) {
+                                            ?>
+                                            <input type="checkbox" id="body_social_links_<?php       print $sl['handle'] ?>" name="body_social_links[]" data-label-text="<?php       print str_replace('"', '\'', $sl['icon']) . ' ' . $sl['name']?>" data-size="normal" value="<?php       print str_replace('"', '\'', $sl['icon']) . '|' . $sl['handle'] . '|' . $sl['name'] . '|' . $sl['link']?>" <?php       (in_array($sl['handle'], $body_social_chosen)) ? print 'checked="checked"' : ''?>>
+                                            <?php
+                                            print '<br>';
+                                        }
                                     }
                                     ?>
                                 </div>

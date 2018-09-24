@@ -81,7 +81,8 @@ $session = \Core::make('session');
 
         <?php      
         $i = 0;
-        if(sizeof($newsletter_templates) > 0){
+        if (!is_null($newsletter_templates)) {
+        if(count($newsletter_templates) > 0){
             foreach($newsletter_templates as $v) {
 
                 ?>
@@ -92,7 +93,7 @@ $session = \Core::make('session');
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <?php      
+                        <?php
                         print '<h3><a class="edit" href="' . $view->url('/dashboard/newsletter/templates/new_template/-/edit', $v['id']) . '">' . $v['handle'] . '</a></h3>';
                         ?>
                     </div>
@@ -111,9 +112,10 @@ $session = \Core::make('session');
                     <hr>
                 </div>
 
-            <?php      
+                <?php
             }
-        } ?>
+        }
+        }?>
 
 </div>
 <div id="mail_template_border" class="ccm-ui"></div>

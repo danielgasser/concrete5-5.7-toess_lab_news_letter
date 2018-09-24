@@ -65,6 +65,26 @@
             $('#' + unsub + 'sub_selected').text($('#' + id).length);
 
         });
+        $(document).on('click', '#un_sub_select_select', function (e) {
+            e.preventDefault();
+            var id = '#un_sub_select>li.ui-selectee';
+            $.each($(id), function (i, n) {
+                $(n).addClass('ui-selected');
+            });
+            $('#un_sub_select_move').attr('disabled', false);
+            $('#un_sub_select_unselect').attr('disabled', false);
+            $('#un_sub_selected').text($(id).length);
+        });
+        $(document).on('click', '#sub_select_select', function (e) {
+            e.preventDefault();
+            var id = '#sub_select>li.ui-selectee';
+            $.each($(id), function (i, n) {
+                $(n).addClass('ui-selected');
+            });
+            $('#sub_select_move').attr('disabled', false);
+            $('#sub_select_unselect').attr('disabled', false);
+            $('#sub_selected').text($(id).length);
+        });
         $(document).on('click', '#sub_select>li, #un_sub_select>li', function (e) {
             $(this).toggleClass('ui-selected');
             var counter = 0;

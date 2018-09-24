@@ -112,7 +112,7 @@ class SendMailingAsJob extends \Concrete\Core\Job\QueueableJob
             $args[]['send_time'] = $row_o->getSendTime();
             $args[]['sent'] = $row_o->getSent();
         }
-        if (sizeof($recipient) == 0) {
+        if (count($recipient) == 0) {
             return t('No recipients.');
 
         }
@@ -164,7 +164,7 @@ class SendMailingAsJob extends \Concrete\Core\Job\QueueableJob
             $mail_{$j}->addParameter('url', BASE_URL);
             $mail_{$j}->addParameter('subject', $subject);
             $mail_{$j}->load('newsletter_template', PackageSetup::$pkgHandle);
-            if (is_array($attachFiles) && sizeof($attachFiles) > 0)
+            if (is_array($attachFiles) && count($attachFiles) > 0)
             {
                 foreach ($attachFiles as $k => $f) {
                     ${'f' . $k} = \File::getByID($f);

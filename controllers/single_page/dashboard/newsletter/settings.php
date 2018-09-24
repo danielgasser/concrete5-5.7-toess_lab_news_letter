@@ -457,7 +457,7 @@ class Settings extends DashboardPageController {
             echo \Core::make('helper/json')->encode(array('failed' => t('The size of attachments is bigger than the allowed maximum of %s Bytes', \Config::get('toess_lab_news_letter.settings.file_total_size'))));
             exit;
         }
-        if (is_array($attachFiles) && sizeof($attachFiles) > 0) {
+        if (is_array($attachFiles) && count($attachFiles) > 0) {
             foreach ($attachFiles as $sf) {
                 $mail->addAttachment($sf);
             }

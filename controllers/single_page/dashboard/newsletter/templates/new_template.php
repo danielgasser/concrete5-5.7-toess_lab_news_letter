@@ -166,7 +166,7 @@ class NewTemplate extends DashboardPageController {
         $template_foot =  $entity_manager->getRepository('Concrete\Package\ToessLabNewsLetter\Entity\ToessLabNewsLetterMailTemplateFoot')->findOneBy(array('tplID' => $tl_id));
         $template_title =  $entity_manager->getRepository('Concrete\Package\ToessLabNewsLetter\Entity\ToessLabNewsLetterMailTemplateTitle')->findOneBy(array('tplID' => $tl_id));
         $newsletter =  $entity_manager->getRepository('Concrete\Package\ToessLabNewsLetter\Entity\ToessLabNewsLetter')->findBy(array('mailtemplateID' => $tl_id));
-        if(sizeof($newsletter) > 0){
+        if(count($newsletter) > 0){
             $session->set('error', t('This Template is attached to the Newsletter \'%s\'. You can\'t delete it.', $newsletter[0]->getNLHandle()));
             $response = \Redirect::to('/dashboard/newsletter/templates/template_list');
             $response->send();
@@ -216,7 +216,7 @@ class NewTemplate extends DashboardPageController {
             ->setParameter('handle', '%' . $handle_like[0] . '%')
             ->getQuery()
             ->getResult();
-        $exist_handle_counter = sizeof($allTemplates);
+        $exist_handle_counter = count($allTemplates);
         $template_copy = unserialize(serialize($template));
         $template_copy_head = unserialize(serialize($template_head));
         $template_copy_body = unserialize(serialize($template_body));
@@ -479,6 +479,7 @@ class NewTemplate extends DashboardPageController {
         foreach($newsletter as $k => $mt){
             $newsletters[$mt->getNewsLetterId()] = $mt->getNLHandle();
         }
+        krsort($newsletters);
         return $newsletters;
     }
 

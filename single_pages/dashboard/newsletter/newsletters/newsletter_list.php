@@ -82,7 +82,10 @@ $session = \Core::make('session');
     ?>
     <?php      
         $i = 0;
-    if(sizeof($newsletter) > 0) {
+    if (!is_null($newsletter)) {
+
+
+    if(count($newsletter) > 0) {
         foreach($newsletter as $v) {
 
         ?>

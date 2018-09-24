@@ -106,7 +106,7 @@ class SendMailing extends DashboardPageController
                 array_splice($uEmails, $key, 1);
             }
         }
-        if ($uEmails == null || !is_array($uEmails) || sizeof($uEmails) == 0) {
+        if ($uEmails == null || !is_array($uEmails) || count($uEmails) == 0) {
             $this->error->add(t('No recipients found. Please choose another group'));
         }
         if (!$this->token->validate('send_or_prepare_newsletter')) {
@@ -228,7 +228,7 @@ class SendMailing extends DashboardPageController
 
                 $mail_{$m}->addParameter('url', BASE_URL);
                 $mail_{$m}->load('newsletter_template', PackageSetup::$pkgHandle);
-                if (is_array($attachFiles) && sizeof($attachFiles) > 0) {
+                if (is_array($attachFiles) && count($attachFiles) > 0) {
                     foreach ($attachFiles as $sf) {
                         $mail_{$m}->addAttachment($sf);
                     }
@@ -322,63 +322,68 @@ class SendMailing extends DashboardPageController
         $allUsers = array();
         $subscriptions = new Subscription();
         $subscribedUIDs = $subscriptions->getSubscriptionsOnly();
-        $placeHolders = implode(',', array_fill(0, count($subscribedUIDs), '?'));
+        if (!is_null($subscribedUIDs)) {
+            $placeHolders = implode(',', array_fill(0, count($subscribedUIDs), '?'));
+        }
         $group_id = \Request::getInstance()->get('group_id');
         $was_checked = (\Request::getInstance()->get('was_checked') == NULL) ? array() : \Request::getInstance()->get('was_checked');
-        if (sizeof($group_id) == 0) {
-            if ($json) {
-                echo \Core::make('helper/json')->encode(NULL);
-                exit;
-            }
-            return NULL;
-        }
-        if (sizeof($subscribedUIDs) == 0) {
+        if (count($subscribedUIDs) == 0) {
             echo \Core::make('helper/json')->encode(array('toesslab_receive_newsletter' => false));
             exit;
         }
-        foreach($group_id as $gi) {
-            if ($gi == '2') {
-                $sth = $db->prepare("select uID, uName, uEmail from Users where uID in ($placeHolders)");
-                $sth->execute($subscribedUIDs);
-                while ($row = $sth->fetch(\PDO::FETCH_OBJ)) {
-                    $row->isChecked = true;
-                    $users[] = $row;
+        if (!is_null($group_id)) {
+            if (count($group_id) == 0) {
+                if ($json) {
+                    echo \Core::make('helper/json')->encode(NULL);
+                    exit;
                 }
-            } else {
-                $userGroup = Group::getByID($gi);
-                $users = $userGroup->getGroupMembers();
-                if ($gi == '3') {
-                    $res = $db->execute("select uID, uName, uEmail from Users where uID = 1");
-                    while ($row = $res->fetch(\PDO::FETCH_OBJ)) {
-                        $row->isChecked = in_array($row->uEmail, $was_checked);
-                        $superuser = $row;
+                return NULL;
+            }
+            foreach($group_id as $gi) {
+                if ($gi == '2') {
+                    $sth = $db->prepare("select uID, uName, uEmail from Users where uID in ($placeHolders)");
+                    $sth->execute($subscribedUIDs);
+                    while ($row = $sth->fetch(\PDO::FETCH_OBJ)) {
+                        $row->isChecked = true;
+                        $users[] = $row;
                     }
-                    $users[] = $superuser;
-                }
-            }foreach($users as $u) {
-                $userInfo = $this->app->make('Concrete\Core\User\UserInfo');
-                if ($u instanceof \stdClass) {
-                    $ui = $userInfo->getByID($u->uID);
                 } else {
-                    $ui = $userInfo->getByID($u->getUserID());
+                    $userGroup = Group::getByID($gi);
+                    $users = $userGroup->getGroupMembers();
+                    if ($gi == '3') {
+                        $res = $db->execute("select uID, uName, uEmail from Users where uID = 1");
+                        while ($row = $res->fetch(\PDO::FETCH_OBJ)) {
+                            $row->isChecked = in_array($row->uEmail, $was_checked);
+                            $superuser = $row;
+                        }
+                        $users[] = $superuser;
+                    }
                 }
-                if (!in_array($ui->getUserID(), $subscribedUIDs)) {
-                    continue;
+                foreach($users as $u) {
+                    $userInfo = $this->app->make('Concrete\Core\User\UserInfo');
+                    if ($u instanceof \stdClass) {
+                        $ui = $userInfo->getByID($u->uID);
+                    } else {
+                        $ui = $userInfo->getByID($u->getUserID());
+                    }
+                    if (!in_array($ui->getUserID(), $subscribedUIDs)) {
+                        continue;
+                    }
+                    $userList = new \StdClass();
+                    $userList->isChecked = in_array($ui->getUserEmail(), $was_checked);
+                    $userList->uID = $ui->getUserID();
+                    $userList->uEmail = $ui->getUserEmail();
+                    $userList->uName = $ui->getUserName();
+                    $userList->uAddress = ($ui->getAttribute('toesslab_address') === false || $ui->getAttribute('toesslab_address') === null) ? t('not defined') : $ui->getAttribute('toesslab_address')->__toString();
+                    $userList->uFirstName = ($ui->getAttribute('toesslab_first_name') === false || $ui->getAttribute('toesslab_first_name') === null) ? t('not defined') : $ui->getAttribute('toesslab_first_name');
+                    $userList->uLastName = ($ui->getAttribute('toesslab_last_name') === false || $ui->getAttribute('toesslab_last_name') === null) ? t('not defined') : $ui->getAttribute('toesslab_last_name');
+                    $userList->uName = $ui->getUserName();
+                    $allUsers[] = $userList;
                 }
-                $userList = new \StdClass();
-                $userList->isChecked = in_array($ui->getUserEmail(), $was_checked);
-                $userList->uID = $ui->getUserID();
-                $userList->uEmail = $ui->getUserEmail();
-                $userList->uName = $ui->getUserName();
-                $userList->uAddress = ($ui->getAttribute('toesslab_address') === false || $ui->getAttribute('toesslab_address') === null) ? t('not defined') : $ui->getAttribute('toesslab_address')->__toString();
-                $userList->uFirstName = ($ui->getAttribute('toesslab_first_name') === false || $ui->getAttribute('toesslab_first_name') === null) ? t('not defined') : $ui->getAttribute('toesslab_first_name');
-                $userList->uLastName = ($ui->getAttribute('toesslab_last_name') === false || $ui->getAttribute('toesslab_last_name') === null) ? t('not defined') : $ui->getAttribute('toesslab_last_name');
-                $userList->uName = $ui->getUserName();
-                $allUsers[] = $userList;
             }
         }
         if ($json) {
-            if (sizeof($allUsers) == 0) {
+            if (count($allUsers) == 0) {
                 echo \Core::make('helper/json')->encode(array('toesslab_receive_newsletter' => false));
                 exit;
             }
@@ -558,7 +563,7 @@ class SendMailing extends DashboardPageController
 	    $ns->setNSHandle($nsHandle);
         $ns->setSentByJob($args['sent_by_job']);
         $ns->setStartSend($args['today']);
-        if (sizeof($args['saveFiles']) > 0) {
+        if (is_array($args['saveFiles'])) {
             $ns->setAttachments(implode(',', $args['saveFiles']));
         } else {
             $ns->setAttachments('');
@@ -733,7 +738,7 @@ class SendMailing extends DashboardPageController
      */
     public function get_newsletter()
     {
-        return Controller\SinglePage\Dashboard\Newsletter\Newsletters\NewNewsletter::get_template();
+        return NewNewsletter::get_template();
     }
 
     /**
@@ -775,7 +780,7 @@ class SendMailing extends DashboardPageController
             $str .= '<h4>' . t('No attachments') . '</h4>';
         } else {
             $attachments = explode(',', $attachment_string);
-            $str .= '<h4>' . sizeof($attachments) . ' ' .t('Attachments') . '</h4>';
+            $str .= '<h4>' . count($attachments) . ' ' .t('Attachments') . '</h4>';
             $str .= '<ul>';
             foreach($attachments as $f) {
                 if (intval($f) > 0) {

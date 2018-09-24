@@ -92,13 +92,15 @@ $session = \Core::make('session');
                 print '<h4>' . t('No attachments') . '</h4>';
             } else {
                 $attachments = explode(',', $v['attachments']);
-                print '<h4>' . sizeof($attachments) . ' ' .t('Attachments') . '</h4>';
+                print '<h4>' . count($attachments) . ' ' .t('Attachments') . '</h4>';
                 print '<ul>';
                 foreach($attachments as $f) {
                     if (intval($f) > 0) {
                         $file = \File::getByID($f);
-                        $version = $file->getRecentVersion();
-                        print '<li><a target="_blank" href="' . \File::getRelativePathFromID($file->getFileID()) . '">' . $version->getFileName() . '</a></li>';
+                        if (is_object($file)) {
+                            $version = $file->getRecentVersion();
+                            print '<li><a target="_blank" href="' . \File::getRelativePathFromID($file->getFileID()) . '">' . $version->getFileName() . '</a></li>';
+                        }
                     }
                 }
             }

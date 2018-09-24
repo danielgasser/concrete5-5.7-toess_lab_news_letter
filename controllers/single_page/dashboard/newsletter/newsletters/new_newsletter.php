@@ -133,7 +133,7 @@ class NewNewsletter extends DashboardPageController
             ->setParameter('handle', '%' . $handle_like[0] . '%')
             ->getQuery()
             ->getResult();
-        $exist_handle_counter = sizeof($allNewsletter);
+        $exist_handle_counter = count($allNewsletter);
         $newsletter_copy = clone $newsletter;
         $new_handle_counter = $exist_handle_counter;
         $newsletter_copy->setNLHandle($handle_like[0] . ' (' . $new_handle_counter . ')');
@@ -269,7 +269,7 @@ class NewNewsletter extends DashboardPageController
         $ns->setUserAttributes($userAttributes);
         $ns->setSocialLinks($socialLinks);
         $ns->setModified(1);
-        if (sizeof($attachFiles) > 0) {
+        if (count($attachFiles) > 0) {
             $ns->setAttachments(implode(',', $args['saveFiles']));
         } else {
             $ns->setAttachments('');
@@ -359,7 +359,7 @@ class NewNewsletter extends DashboardPageController
      * @throws \Doctrine\ORM\OptimisticLockException
      * @throws \Doctrine\ORM\TransactionRequiredException
      */
-    public function get_template()
+    public static function get_template()
     {
 
         $t_id = \Request::getInstance()->get('t_id');
@@ -389,6 +389,7 @@ class NewNewsletter extends DashboardPageController
         foreach($newsletters as $mt){
             $newsLetters[$mt->getNewsLetterId()] = $mt->getNLHandle();
         }
+        krsort($newsletters);
         return $newsLetters;
     }
 
@@ -437,8 +438,10 @@ class NewNewsletter extends DashboardPageController
     private function createUserAttributeKeysArray($args, $email = true)
     {
         $address = array();
-        foreach($args as $a) {
-            $address[$a['akHandle']] = $a['akName'];
+        if (!is_null($args) && count($args) > 0) {
+            foreach($args as $a) {
+                $address[$a['akHandle']] = $a['akName'];
+            }
         }
         if($email) {
             $address['uEmail'] = t('Email');

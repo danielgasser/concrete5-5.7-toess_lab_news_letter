@@ -290,7 +290,7 @@ class Controller extends Package
             'javascript', 'toesslab', 'js/min/toesslab_global.min.js', array('position' => \Asset::ASSET_POSITION_FOOTER), $pkg
         );
         $al->register(
-            'javascript', 'toesslab_subscription', 'js/min/toesslab_subscription.min.js', array('position' => \Asset::ASSET_POSITION_FOOTER), $pkg
+            'javascript', 'toesslab_subscription', 'js/src/toesslab_subscription.js', array('position' => \Asset::ASSET_POSITION_FOOTER), $pkg
         );
         $al->register(
             'javascript', 'googlefontfamily', 'js/build/vendor/redactor/googlefontfamily.js', array('position' => \Asset::ASSET_POSITION_FOOTER), $pkg

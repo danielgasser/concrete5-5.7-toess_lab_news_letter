@@ -65,10 +65,10 @@ class Newsletter extends DashboardPageController
     {
         $session = \Core::make('session');
         $selectedTabs = array();
-        if ($session->has('selectedTabs') && sizeof($session->get('selectedTabs')) > 0) {
+        if ($session->has('selectedTabs') && count($session->get('selectedTabs')) > 0) {
             $selectedTabs = $session->get('selectedTabs');
         }
-        if(sizeof($selectedTabs) == 0) {
+        if(count($selectedTabs) == 0) {
             $tabs[0][2] = true;
             return $tabs;
         }

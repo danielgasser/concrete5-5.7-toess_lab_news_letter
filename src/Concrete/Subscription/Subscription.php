@@ -28,15 +28,15 @@ class Subscription
         $db = \Core::make('database');
         $arrSel = array();
         $checkCol = $db->getAll('show columns from UserSearchIndexAttributes where field like "ak_toesslab_receive_newsletter%"');
-        if (!$checkCol || sizeof($checkCol) == 0) {
+        if (!$checkCol || count($checkCol) == 0) {
             return false;
         }
         $querySel = 'SELECT uID FROM UserSearchIndexAttributes where ' . $checkCol[0]['Field'] . ' like "%Yes%"';
         $paramArray = array();
         $sqlArray = array();
         $resSel = $db->getAll($querySel);
-        if (sizeof($resSel) > 0) {
-            for ($i = 0; $i < sizeof($resSel); $i++){
+        if (count($resSel) > 0) {
+            for ($i = 0; $i < count($resSel); $i++){
                 $sqlArray[] = '(' . implode(',', array_fill(0, count($resSel[$i]), '?')) . ')';
 
                 foreach($arrSel[$i] as $element)
@@ -60,7 +60,7 @@ class Subscription
     {
         $entity_manager = \Core::make('Doctrine\ORM\EntityManager');
         $subscriptions = $this->getSubscriptions();
-        if (sizeof($subscriptions) == 0 || is_null($subscriptions)) {
+        if (count($subscriptions) == 0 || is_null($subscriptions)) {
             $subscriptions['sub'] = [];
             $subscriptions['un_sub'] = [];
         }
@@ -69,14 +69,24 @@ class Subscription
         $un_index = array_search($uID, array_column($subscriptions['un_sub'], 'uID'));
         if ($subscribe && $index === false) {
             $toessLabNewsLetterSubscription = new ToessLabNewsLetterSubscription();
-            $user->setAttribute('toesslab_receive_newsletter_new', true);
+            $uA = $user->getAttribute('toesslab_receive_newsletter_new');
+            if (is_object($uA)) {
+                $user->setAttribute('toesslab_receive_newsletter_new', true);
+            } else {
+                $user->setAttribute('toesslab_receive_newsletter', true);
+            }
             $toessLabNewsLetterSubscription->setNewsletterSubscriptionID($uID);
             $entity_manager->persist($toessLabNewsLetterSubscription);
         }
         if (!$subscribe && $un_index === false) {
             $toessLabNewsLetterSubscription = $entity_manager->getRepository('\Concrete\Package\ToessLabNewsLetter\Entity\ToessLabNewsLetterSubscription')->findOneBy(array('uID' => $uID));
             if (is_object($toessLabNewsLetterSubscription)) {
-                $user->setAttribute('toesslab_receive_newsletter_new', false);
+                $uA = $user->getAttribute('toesslab_receive_newsletter_new');
+                if (is_object($uA)) {
+                    $user->setAttribute('toesslab_receive_newsletter_new', false);
+                } else {
+                    $user->setAttribute('toesslab_receive_newsletter', false);
+                }
                 $entity_manager->remove($toessLabNewsLetterSubscription);
             }
         }
@@ -90,7 +100,7 @@ class Subscription
 
     public function getSubscriptions($emailIds = array())
     {
-        if (sizeof($emailIds) > 0) {
+        if (count($emailIds) > 0) {
             $subscribedUIDs = $emailIds;
         } else {
             $subscribedUIDs = $this->getAllSubscriptions();
@@ -114,7 +124,7 @@ class Subscription
     {
         $db = \Core::make('database');
 
-        if (is_null($subscribed) || sizeof($subscribed) == 0) {
+        if (is_null($subscribed) || count($subscribed) == 0) {
             $res['sub'] = [];
             $sthSub = $db->prepare('select uID, uEmail from Users');
             $sthSub->execute();
