@@ -295,3 +295,75 @@ There are 5 headers defined in the rich text editor of concrete5 (in HTML genera
 </div>
 
 </div>
+
+As for the templates, there are three section of the newsletter: Head, Body Foot. These are then inserted in the template you choose to be attached with the newsletter. The content is made by using the integrated rich text editor of concrete5\. Please refer to the [Editors Guide of concrete5](http://documentation.concrete5.org/editors).
+
+**User attributes**
+
+A part of that you may insert user attributes defined in the member section of your dashboard. These attributes will then be filled with the corresponding value of each user the newsletter will be sent to. These values will only be visible, when sending the mailing or sending a test message. The following user attribute can be inserted:
+
+*   Text
+*   Number
+*   Date/Time
+*   Email
+*   Address
+*   Text Area
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - First Name
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - Last Name
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - Address
+
+Simply click at the desired position in the editor, then click on the desired attribute and it will be inserted at the cursors position.
+
+There are four user attributes coming with this add-on:
+
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - First Name
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - Last Name
+*   <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - Address
+    *   Dear
+    *   Dear Madam
+    *   Dear Sir
+    *   Madam
+    *   Misses
+    *   Mister
+    *   Sir
+*   Receive <span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span> - Newsletter
+    *   Checked/Unchecked
+
+<span style="color: #676665; font-family: Ubuntu, sans-serif; font-size: 15px; line-height: 20.25px;">Receive </span><span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif; color: #676665; font-size: 15px; line-height: 20.25px;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span><span style="color: #676665; font-family: Ubuntu, sans-serif; font-size: 15px; line-height: 20.25px;"> - Newsletter is the most important one and has been added because of the spam rules being in place today. You are strongly advised to add an information in the newsletter to tell your members that there is the possibility to unsubscribe from the newsletter by adapting this user attribute.</span>  
+**IMPORTANT: Any member having this attribute set to "No" is not receiving the mailing!**
+
+**Please do not delete this attribute!**
+
+**Social Links**<span style="color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;"> </span>
+
+The same way Social links can be inserted such as Facebook, Google+ etc. Those social links are defined under Dashboard -> System & Settings -> Basics -> Social Links. Please be aware that there is no warranty that the icons will be shown in all email clients.
+
+**Unsubscribe-Link**
+
+The same way an Unsubscribe Link can be inserted.
+
+1.  Choose the Page where the 'Un/Subscribe from toesslab - Newsletter' Block is placed.
+2.  Place the cursor at the desired position in the Text Section below.
+3.  Then click 'Insert' to place the link at the cursors position.
+4.  Important! Do NOT change the URL of the link. Otherwise the Un/subscribe-Link won't work.
+
+
+<div style="color: #676665; font-family: Ubuntu, sans-serif; font-size: 15px;">
+
+**Dashboard:**
+
+To subscribe or unsubscribe members from receiving your nesletters, you may add severla email addresses separated by ne line into the text area. Then hit "Subscribe" "Unsubscribe".
+
+In the lower section of the page there are 2 lists:
+
+The one on the left side contains all subscripted email addresses, the one on the right side all not subscripted. You may select addresses by dragging a rectangle over them with the mouse. (The selected emails become red/green). You may Also select single addresses by clicking on them and several addresses by pushing down the CTRL key and drag or click.
+
+Then hit "Move selected to 'unsubscripted" or "Move selected to 'subscripted'".
+
+**Notice: all subscribed email addresses must belong to a user account!**
+
+**Block:**
+
+The "Un/Subscribe from toesslab - Newsletter" Block can be placed everywhere and handled as any other block. You may create Templates for it, style it, etc as usual. You can then insert a link to that page in your Newsletters as you insert Social Links or User Attributes. See "[Create Newsletter](/marketplace/addons/toesslab-newsletter/create-newsletter/ "Create Newsletter")" for further information.
+
+</div>
