@@ -1,35 +1,297 @@
-### **[Watch the tutorial videos here.](https://www.youtube.com/playlist?list=PL4O5JnnqaCJgqKF679wJi2CXwG3G-FEj4)**
+To start it is advisable to duplicate one of the 2 existent templates and play around with it. A template is divided into four parts. All parts have a background, padding, margin and border section. These can be styled using [CSS (Cascading Style Sheets)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets). See explanations on CSS below.
 
-<span style="color: #676665; font-family: Ubuntu, sans-serif;"><span style="font-size: 15px;"></span></span>
+**<span style="color: #676665; font-family: Ubuntu, sans-serif; font-size: 15px;">Please be aware that for designing a descent template having some HTML & CSS knowledge is highly recommended.</span>**
 
-1.  **Verify that the folder /application/files has the correct permissions (0755 or 0777)**
-2.  Install the package.
+**Head Section**
 
-*   **Settings:**
+In the Head section, you may choose to insert an Image, like your logo or a portrait. This image will be linked to your concrete5 website. The following settings can be made concerning the header image:
 
-1.  Set the maximum number of attachments per mailing.
-2.  Set the maximum size of an attachment.
-3.  Send Mailings as "Automated Job" or directly.
-4.  If sending by "Automated Job" set the number of emails being sent in period of time. (Minute, hour, day or month).  
-    Refer to your provider or webmaster for more information about the allowed limit. This is very important, because if you don't follow the rules of your provider, your newsletters are not being sent and your provider may block your e-mail service because their spam rules.
+*   The size of the image:
+    *   Changing the width value will automatically calculate the height value and vice versa.
+*   The position of the image in the head container:  
 
-1.  Decide if you'd like to receive a report by email about every mailing being sent.
-2.  Enter the "From:" and "Reply-To:" email address
-3.  Save the settings.
+    *   Left
+    *   Center
+    *   Right
+*   The position of the whole header relative to the mail container
+    *   Top
+    *   Right
+    *   Bottom
+    *   Left
 
-*   **Templates:**
+**Body and Footer Section**
 
-1.  Create a new Template or choose one in the list to edit.
-2.  Choose background color, margin & padding, size, borders and title styles of the header, body and footer. Please refer to the three existing Templates delivered with the add-on. If you need help with the styling feature, don't hesitate to contact [support@<span class="toess-lab" style="box-sizing: border-box; font-family: Ubuntu, Helvetica, Arial, sans-serif;"><span class="toess" style="box-sizing: border-box; color: #000000;">toess</span><span class="lab" style="box-sizing: border-box; color: #a61c29;">lab</span></span>.ch](mailto:support@toesslab.ch).
-3.  Decide whether there should be a header image or not.
-4.  Preview the Template.
-5.  Send test emails of your Templates.
+The following settings can be made here:
 
-*   **Newsletters:**
+*   Background color and minimum height
+*   Padding
+*   Margin
+*   Borders
 
-1.  Create a new Newsletter or choose one in the list to edit.
-2.  Write header, body and footer text with the Rich Text Editor of concrete5.
-3.  Attach the Newsletter to any of your Templates previously designed.
-4.  Attach files to the Newsletter.
-5.  Preview the Newsletter with any of your templates.
-6.  Send test emails of your Newsletters.
+**Headers**
+
+There are 5 different headers which can be used in the rich text editor inside the Newsletters. Here you can style them as follows:
+
+*   Font family
+*   Font weight
+*   Font size
+*   Font color
+*   Padding
+*   Margin
+
+**CSS Explanations**
+
+CSS is used to style the parts of the template. Templates can be styled using the CSS units pixel or percent. The CSS-commands being used in are explained below.
+
+Text styling is made inside the rich text editor of concrete5\. Please refer to the [Editors Guide of concrete5](http://documentation.concrete5.org/editors).
+
+<div class="ccm-custom-style-container ccm-custom-style-main-259 doc_style" style="box-sizing: border-box; color: #676665; font-family: Ubuntu, sans-serif; font-size: 15px; line-height: 20.25px;">
+
+<div id="HTMLBlock259" class="HTMLBlock" style="box-sizing: border-box;">
+
+<div id="style_dialog" style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Padding**
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; width: 712.5px; margin-left: 20px; margin-right: 10px; background-color: #428bca;"><span style="box-sizing: border-box;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span></div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+**Explanation**
+
+<span style="box-sizing: border-box; color: white; padding: 1px; background-color: #428bca;">Padding</span> is the distance between the container and the inner content.   
+In this example the padding is as follows:
+
+*   Padding Top: 5 Pixels
+*   Padding Right: 10 Pixels
+*   Padding Bottom: 15 Pixels
+*   Padding Left: 20 Pixels
+
+</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Margin**
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;"><span style="box-sizing: border-box;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span> </div>
+
+</div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+**Explanation**
+
+<span style="box-sizing: border-box; color: white; padding: 1px; background-color: #000000;">Margin</span> is the distance between the container and its parent container, in our case this would be the email body.  
+In this example the margin is as follows:
+
+*   Margin Top: 5 Pixels
+*   Margin Right: 10 Pixels
+*   Margin Bottom: 15 Pixels
+*   Margin Left: 20 Pixels
+
+</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Minimum height**
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; min-height: 75px; background-color: #428bca;"><span style="box-sizing: border-box;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span> </div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; min-height: 75px; background-color: #428bca;"><span style="box-sizing: border-box;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</span> </div>
+
+</div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+**Explanation**
+
+The minimum height defines the height a container _must_ have. If the content is bigger than this height, the height will be adapted automatically.  
+In this example the minimum height is as follows:
+
+*   Minimum height: 75 Pixels
+
+</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Borders**
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 197px; background-color: #242729;">
+
+<div class="newsletter-padding newsletter-border top" style="box-sizing: border-box; padding: 5px 10px 15px 20px; border-top-width: 3px; border-style: solid none none; border-color: white; float: left; width: 158.391px; margin-right: 7.1875px; min-height: 36px; background-color: #428bca;"><span style="box-sizing: border-box;">Border top 3 pixels wide, solid style, color white.</span> </div>
+
+<div class="newsletter-padding newsletter-border right" style="box-sizing: border-box; padding: 5px 10px 15px 20px; border-right-width: 3px; border-style: none solid none none; border-color: white; float: left; width: 158.391px; margin-right: 7.1875px; min-height: 36px; background-color: #428bca;"><span style="box-sizing: border-box;">Border right 3 pixels wide, solid style, color white.</span> </div>
+
+<div class="newsletter-padding newsletter-border bottom" style="box-sizing: border-box; padding: 5px 10px 15px 20px; border-bottom-width: 3px; border-style: none none solid; border-color: white; float: left; width: 158.391px; margin-right: 7.1875px; min-height: 36px; background-color: #428bca;"><span style="box-sizing: border-box;">Border bottom 3 pixels wide, solid style, color white.</span> </div>
+
+<div class="newsletter-padding newsletter-border left" style="box-sizing: border-box; padding: 5px 10px 15px 20px; border-left-width: 3px; border-style: none none none solid; border-color: white; float: left; width: 158.391px; margin-right: 7.1875px; min-height: 36px; background-color: #428bca;"><span style="box-sizing: border-box;">Border left 3 pixels wide, solid style, color white.</span> </div>
+
+</div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+Explanation
+
+Borders may have width defined in pixels. They can be on top, right, bottom or left side of the container. The following styles are allowed:
+
+*   none
+*   dotted
+*   dashed
+*   solid
+*   double
+*   groove
+*   ridge
+*   inset
+*   outset
+*   initial
+
+*   1px width
+*   2px width
+*   3px width
+*   4px width
+*   ...
+
+</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Positioning**
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; margin: 10px auto; position: relative; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; position: absolute; top: 15px; right: 10px; background-color: #428bca;"><span style="box-sizing: border-box;">Element is positioned as follows: 15 pixels from the top, 10 pixels from right.</span> </div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; margin: 10px auto; position: relative; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; position: absolute; bottom: 15px; left: 10px; background-color: #428bca;"><span style="box-sizing: border-box;">Element is positioned as follows: 15 pixels from the bottom, 10 pixels from left.</span> </div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; margin: 10px auto; position: relative; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; position: absolute; top: 15px; left: 10px; background-color: #428bca;"><span style="box-sizing: border-box;">Element is positioned as follows: 15 pixels from the top, 10 pixels from left.</span> </div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; margin: 10px auto; position: relative; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; position: absolute; bottom: 15px; right: 10px; background-color: #428bca;"><span style="box-sizing: border-box;">Element is positioned as follows: 15 pixels from the bottom, 10 pixels from right.</span> </div>
+
+</div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+**Explanation**
+
+The position of an element is in relation to it's parent container in that case the mail container.</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box;">
+
+<div style="box-sizing: border-box;">**Headers**
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;">Header 1: Font family Arial, font size 22 pixels, font weight bold, font style normal, color red, padding top, left, bottom, right 10 pixels, margin same</div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;">
+
+## Header 2: Font family Times New Roman, font size 20 pixels, font weight 300, font style italic, color white, padding top, left, bottom, right 15 pixels, margin same
+
+</div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;">
+
+### Header 3: Font family Ubuntu, font size 18 pixels, font weight 700, font style oblique, color white, padding top, left, bottom, right 30 pixels, margin same
+
+</div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;">Header 4: Font family Helvetica, font size 16 pixels, font weight 400, font style normal, color yellow, padding top, left, bottom, right 4 pixels, margin same</div>
+
+</div>
+
+<div class="newsletter-margin" style="box-sizing: border-box; padding: 5px 10px 15px 20px; color: white; min-height: 97px; background-color: #242729;">
+
+<div class="newsletter-padding" style="box-sizing: border-box; padding: 5px 10px 15px 20px; background-color: #428bca;">Header 5: Same as header 4, except the font size is 14 pixels</div>
+
+</div>
+
+</div>
+
+<div style="box-sizing: border-box;">
+
+**Explanation**
+
+There are 5 headers defined in the rich text editor of concrete5 (in HTML generally there are 6 of them). You may define font family, style, color, weight, padding and margin of them.</div>
+
+</div>
+
+* * *
+
+<div style="box-sizing: border-box; float: none; clear: both;">
+
+<div style="box-sizing: border-box;">Units Following CSS units are allowed:  
+**pixels or percents.**
+
+*   **Pixels**: _In digital imaging, a pixel, pel, or picture element is a physical point in a raster image, or the smallest addressable element in an all points addressable display device ... [Read more. ](https://en.wikipedia.org/wiki/Pixel.)_<span style="box-sizing: border-box; font-size: 11.25px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">[1]</span>
+*   **Percent**: _The percentage CSS data types represent a percentage value. Many CSS properties can take percentage values, often to define sizes in terms of parent objects ... [Read more. ](https://developer.mozilla.org/en/docs/Web/CSS/percentage.)_<span style="box-sizing: border-box; font-size: 11.25px; line-height: 0; position: relative; vertical-align: baseline; top: -0.5em;">[2]</span>
+
+<span style="box-sizing: border-box;">_[1] Reference: [Wikipedia](https://en.wikipedia.org/wiki/Pixel)_</span>  
+<span style="box-sizing: border-box;">_[2] Reference: [Mozilla Developer Network](https://developer.mozilla.org/en/docs/Web/CSS/percentage)_</span></div>
+
+</div>
+
+</div>
+
+</div>
