@@ -1,3 +1,6 @@
+2.2.5 - 09/21/2018 - Bug fixed when attached file is deleted; Newsletter dropdown for previews sorted by creation; subscription "Select all" added
+2.2.4 - 08/15/2018 - Bug fixed when newsletter/template list are empty
+2.2.3 - 07/12/2018 - PHP 7.2 ready
 2.2.2 - 03/03/2018 - Added "Send Newsletter Now" button at "Add Newsletter" page
 2.2.1 - 10/16/2017 - version 8.3.0 ready
 2.2.0 - 10/16/2017 - Subscriptions optimized
