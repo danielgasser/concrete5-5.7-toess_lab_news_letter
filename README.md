@@ -1,3 +1,9 @@
+## Important note: ##
+
+Feel free to do whatever you like with this repo but please do _not_ ask for support.
+
+---
+
 ### Send stylish newsletters to your registered users or any user group of your site.
 
 Do you have multiple users (members) registered on your website? Then this plugin is a must!
