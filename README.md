@@ -8,8 +8,6 @@ Feel free to do whatever you like with this repo but please do _not_ ask for sup
 
 Do you have multiple users (members) registered on your website? Then this plugin is a must!
 
-### **[Watch the tutorial videos here.](https://www.youtube.com/playlist?list=PL4O5JnnqaCJgqKF679wJi2CXwG3G-FEj4)**
-
 Design multiple templates easily.  
 Create multiple newsletters and bind them to any of your templates.  
 Choose user groups a Newsletter will be sent to.  
